@@ -81,6 +81,24 @@
   });
 
   /* timeline progress */
-  if (document.getElementById('tlProgress')) gsap.to('#tlProgress', { scaleX: 1, ease: 'none', scrollTrigger: { trigger: '.tl', start: 'top 85%', end: 'top 30%', scrub: 0.3 } });
+  // timeline: animação própria (não presa ao scroll) — a barra percorre a linha e acende marcos e anos em sequência, em loop
+  var tlEl = document.querySelector('.tl');
+  if (tlEl && document.getElementById('tlProgress')) {
+    var dots = tlEl.querySelectorAll('.tl__dot-circle'), years = tlEl.querySelectorAll('.tl__year'), cells = tlEl.querySelectorAll('.tl__cell[data-year]');
+    var DUR = 7, n = dots.length;
+    var tlAnim = gsap.timeline({ paused: true, repeat: -1, repeatDelay: 2.5 });
+    tlAnim.fromTo('#tlProgress', { scaleX: 0 }, { scaleX: 1, duration: DUR, ease: 'none' }, 0);
+    dots.forEach(function (d, i) {
+      var t = (((i + 0.5) / n - 0.04) / 0.92) * DUR;
+      tlAnim.fromTo(d, { backgroundColor: '#fff', borderColor: '#122940', scale: 1 }, { backgroundColor: '#1471a0', borderColor: '#1471a0', scale: 1.5, duration: 0.35, ease: 'back.out(2)' }, t);
+      if (years[i]) tlAnim.fromTo(years[i], { opacity: 0.35 }, { opacity: 1, duration: 0.35 }, t);
+    });
+    cells.forEach(function (c) {
+      var i = parseInt(c.style.getPropertyValue('--o') || '1', 10) - 1;
+      var t = (((i + 0.5) / n - 0.04) / 0.92) * DUR;
+      tlAnim.fromTo(c, { opacity: 0.3, y: 8 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, t);
+    });
+    ScrollTrigger.create({ trigger: tlEl, start: 'top 85%', end: 'bottom 10%', onEnter: function () { tlAnim.play(); }, onEnterBack: function () { tlAnim.play(); }, onLeave: function () { tlAnim.pause(); }, onLeaveBack: function () { tlAnim.pause(); } });
+  }
 
 })();

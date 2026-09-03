@@ -155,7 +155,7 @@ section { position: relative; }
 .tl__progress { position: absolute; top: 50%; left: 4%; right: 4%; height: 1px; background: var(--blue); transform-origin: left; transform: scaleX(0); }
 .tl__dots { position: relative; width: 100%; display: grid; grid-template-columns: repeat(6, 1fr); }
 .tl__dot { display: flex; justify-content: center; }
-.tl__dot-circle { width: 10px; height: 10px; border-radius: 50%; background: #fff; border: 1px solid var(--text-dark); }
+.tl__dot-circle { width: 10px; height: 10px; border-radius: 50%; background: #fff; border: 1px solid var(--text-dark); will-change: transform; }
 .tl__years { display: grid; grid-template-columns: repeat(6, 1fr); text-align: center; margin: 12px 0 6px; }
 .tl__year { font-family: var(--display); font-size: 1.1rem; font-weight: 600; color: var(--blue); letter-spacing: -0.01em; }
 .tl__row--top { margin-bottom: 8px; } .tl__row--bottom { margin-top: 8px; }

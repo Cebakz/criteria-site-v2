@@ -17,7 +17,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 
 | Arquivo | Uso | Unsplash photo id |
 |---|---|---|
-| historia-polo.webp | Nossa História (principal) | 1516756953057-acad3b3d8d2d |
+| historia-golfe.webp | Nossa História (golfista ao entardecer) | 1752661497402-5b3b6743d66a |
 | card-investimentos.webp | Onde Atuamos · Investimentos (vela) | 1501771924607-209f42a6e7e4 |
 | card-private.webp | Onde Atuamos · Private (golfe) | 1742498626081-a64f9677f468 |
 | card-seguros.webp | Onde Atuamos · Seguros (hipismo) | 1600715187853-47512f8b0717 |
