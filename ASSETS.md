@@ -53,8 +53,8 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | hero-investimentos.webp | Hero investimentos.html (golfe) | 1696104470342-b1ed3afe8381 |
 | servicos-golfe.webp / inv-rendafixa.webp | investimentos.html — abordagem / renda fixa | 1633597468433-fdb200b73f62 / 1650465263750-e333c7bcd30c |
 | band-golfe.webp / inv-quote.webp / inv-cta.webp | investimentos.html — faixa metodologia / citação / CTA | 1592937238247-cd0090e02f65 / 1701428181041-d5b4f1d66a87 / 1658101617638-b8653e27f7f2 |
-| hero-ib.webp / ib-intro.webp | Hero e intro investment-banking.html (tênis) | 1747647455910-6356d52f45da / 1758314810669-346173121689 |
-| band-tenis.webp / ib-cta.webp | investment-banking.html — faixa / CTA | 1750858285407-069e874245d4 / 1548920168-70d61248a912 |
+| hero-ib.webp / ib-intro.webp | Hero (saibro) e intro (grama) investment-banking.html | 1747647455910-6356d52f45da / 1719762888013-6ae1e96d0eb8 |
+| band-tenis.webp / ib-cta.webp | investment-banking.html — faixa (quadra dura) / CTA | 1516742720271-6ae39cbc5bd1 / 1548920168-70d61248a912 |
 | time-hero.webp | time.html — hero | 1571055177609-9c20e649f47e |
 | contato-hero.webp | contato.html — hero | 1561592390-ec0391c9c723 |
 

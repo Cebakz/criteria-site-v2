@@ -673,3 +673,17 @@ section { position: relative; }
 .press__row:hover .press__title { color: var(--blue); }
 @media (max-width: 1100px) { .awards { grid-template-columns: 1fr 1fr; gap: 32px; } .social { grid-template-columns: 1fr; gap: 24px; } .press { grid-template-columns: 1fr; } .press__feat { min-height: 380px; } }
 @media (max-width: 768px) { .awards { grid-template-columns: 1fr; } .press__row { grid-template-columns: 1fr; gap: 8px; } .press__row svg { display: none; } .press__feat-body { padding: 24px; } }
+
+/* ---------- transações em linhas ---------- */
+.dealrows { margin-top: 56px; border-top: 1px solid var(--line); }
+.dealrow { display: grid; grid-template-columns: 80px 170px 1fr 220px; gap: 28px; align-items: center; padding: 22px 0; border-bottom: 1px solid var(--line); transition: padding-left .35s var(--ease); }
+.dealrow:hover { padding-left: 8px; }
+.dealrow__date { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.04em; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.dealrow__type { font-size: 0.64rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue); }
+.dealrow__text { font-size: 0.95rem; line-height: 1.55; color: var(--text-body); font-weight: 300; }
+.dealrow__text strong { font-weight: 600; color: var(--navy); }
+.dealrow__logos { display: flex; justify-content: flex-end; align-items: center; gap: 18px; }
+.dealrow__logos img { max-height: 30px; max-width: 96px; width: auto; height: auto; filter: grayscale(1); opacity: .75; transition: filter .4s var(--ease), opacity .4s var(--ease); }
+.dealrow:hover .dealrow__logos img { filter: none; opacity: 1; }
+@media (max-width: 1100px) { .dealrow { grid-template-columns: 70px 1fr 160px; } .dealrow__type { grid-column: 2; } .dealrow__text { grid-column: 2; } .dealrow__logos { grid-column: 3; grid-row: 1 / span 2; } }
+@media (max-width: 768px) { .dealrow { grid-template-columns: 1fr; gap: 8px; } .dealrow__logos { grid-column: 1; grid-row: auto; justify-content: flex-start; } }
