@@ -55,47 +55,37 @@
   </div>
 </section>
 
-<!-- NUMBERS -->
-<section class="numbers numbers--flat">
+<!-- NUMBERS (sobre vídeo, igual à home) -->
+<section class="numbers numbers--sub">
+  <div class="media media--parallax">
+    <video muted loop playsinline preload="none" poster="img/numeros-torres-poster.webp" data-src="video/numeros-torres.mp4" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"></video>
+  </div>
   <div class="wrap">
-    <div class="numbers__grid">
+    <div class="numbers__grid numbers__grid--3">
       <div class="num reveal"><div class="num__v">170<small>MM USD</small></div><div class="num__l">Patrimônio Sob Gestão</div></div>
       <div class="num reveal"><div class="num__v">+1.400</div><div class="num__l">Famílias Atendidas</div></div>
       <div class="num reveal"><div class="num__v">+12</div><div class="num__l">Anos de História no Mercado</div></div>
     </div>
+    <div class="numbers__note reveal">Parceiros globais: Morgan Stanley · JP Morgan · Avenue · XP</div>
   </div>
 </section>
 
-<!-- PARCEIROS -->
-<section class="section bg-white" id="parceiros">
-  <div class="wrap">
-    <div class="label reveal">Parceiros Globais</div>
-    <h2 class="h2 reveal">Rede internacional de <em>parceiros de classe mundial</em></h2>
-    <div class="grid grid--4">
-      <div class="card reveal"><div class="card__title">Morgan Stanley</div><div class="card__eyebrow" style="margin:0">EUA / Global</div></div>
-      <div class="card reveal"><div class="card__title">JP Morgan</div><div class="card__eyebrow" style="margin:0">EUA / Global</div></div>
-      <div class="card reveal"><div class="card__title">Avenue</div><div class="card__eyebrow" style="margin:0">EUA / Brasil</div></div>
-      <div class="card reveal"><div class="card__title">XP</div><div class="card__eyebrow" style="margin:0">Brasil / Global</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- MODELOS DE EXECUÇÃO -->
-<section class="section bg-navy" id="modelos">
+<!-- MODELOS DE EXECUÇÃO (cards fotográficos) -->
+<section class="section bg-ink" id="modelos">
   <div class="wrap">
     <div class="label label--light reveal">Diferenciação Operacional</div>
     <h2 class="h2 h2--light reveal">Modelos de <em>execução</em></h2>
     <p class="lead lead--light reveal">Flexibilidade e eficiência adaptadas ao perfil e necessidade de cada investidor.</p>
-    <div class="grid grid--3">
-      <div class="card card--dark reveal"><div class="card__eyebrow">Digital</div><div class="card__title">XP Global</div><div class="card__text">Agilidade e autonomia digital. Tudo é realizado via push ou aplicativo do cliente, garantindo execução imediata na palma da mão.</div></div>
-      <div class="card card--dark reveal"><div class="card__eyebrow">Banker em Miami</div><div class="card__title">XP US</div><div class="card__text">Suporte internacional personalizado. O processo é realizado via e-mail diretamente com o banker em Miami, unindo segurança e proximidade.</div></div>
-      <div class="card card--dark reveal"><div class="card__eyebrow">Gestão discricionária</div><div class="card__title">MFO</div><div class="card__text">Delegue a complexidade. Modelo de gestão discricionária, onde nossos especialistas tomam as decisões estratégicas para otimizar seu portfólio.</div></div>
+    <div class="profiles__grid">
+      <div class="prof prof--open reveal"><img src="img/perfil-broker.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Digital</div><div class="prof__title">XP Global</div><div class="prof__desc">Agilidade e autonomia digital. Tudo é realizado via push ou aplicativo do cliente, garantindo execução imediata na palma da mão.</div></div></div>
+      <div class="prof prof--open reveal"><img src="img/card-ib.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Banker em Miami</div><div class="prof__title">XP US</div><div class="prof__desc">Suporte internacional personalizado. O processo é realizado via e-mail diretamente com o banker em Miami, unindo segurança e proximidade.</div></div></div>
+      <div class="prof prof--open reveal"><img src="img/card-private.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Gestão discricionária</div><div class="prof__title">MFO</div><div class="prof__desc">Delegue a complexidade. Modelo de gestão discricionária, onde nossos especialistas tomam as decisões estratégicas para otimizar seu portfólio.</div></div></div>
     </div>
   </div>
 </section>
 
 <!-- JORNADA -->
-<section class="section bg-sand" id="servicos">
+<section class="section bg-white" id="servicos">
   <div class="wrap">
     <div class="label reveal">Nossos Serviços</div>
     <h2 class="h2 reveal">Acompanhamento <em>personalizado</em></h2>
@@ -105,17 +95,16 @@
       <div class="step reveal"><div class="step__n">02</div><div class="card__eyebrow">Etapa 2</div><div class="card__title">Alocação</div><div class="card__text">Implementação da estratégia baseada em teses de longo prazo.</div></div>
       <div class="step reveal"><div class="step__n">03</div><div class="card__eyebrow">Etapa 3</div><div class="card__title">Monitoramento</div><div class="card__text">Acompanhamento contínuo, relatórios consolidados e ajustes táticos periódicos.</div></div>
     </div>
-    <div class="grid grid--3" style="margin-top:20px">
-      <div class="card reveal"><div class="card__title">Planejamento sucessório</div><div class="card__text">Estruturação de PICs, Trusts e Joint Tenancy para garantir a transferência eficiente de ativos.</div></div>
-      <div class="card reveal"><div class="card__title">Eficiência tributária</div><div class="card__text">Análise constante da matriz tributária para minimizar impactos e maximizar o retorno líquido.</div></div>
-      <div class="card reveal"><div class="card__title">Banker dedicado</div><div class="card__text">Acesso direto a especialistas para suporte em todas as etapas da jornada internacional.</div></div>
+    <div class="feature-cols" style="grid-template-columns:repeat(3,1fr);margin-top:32px">
+      <div class="reveal"><h4>Planejamento sucessório</h4><div class="card__text">Estruturação de PICs, Trusts e Joint Tenancy para garantir a transferência eficiente de ativos.</div></div>
+      <div class="reveal"><h4>Eficiência tributária</h4><div class="card__text">Análise constante da matriz tributária para minimizar impactos e maximizar o retorno líquido.</div></div>
+      <div class="reveal"><h4>Banker dedicado</h4><div class="card__text">Acesso direto a especialistas para suporte em todas as etapas da jornada internacional.</div></div>
     </div>
-    <div class="banner reveal" style="background:#fff">Foco total na experiência do cliente e na <strong>segurança institucional</strong> do patrimônio.</div>
   </div>
 </section>
 
 <!-- XP INTERNACIONAL -->
-<section class="section bg-white">
+<section class="section bg-sand">
   <div class="wrap">
     <div class="label reveal">Jornada do Cliente</div>
     <h2 class="h2 reveal">XP <em>Internacional</em></h2>
@@ -127,40 +116,47 @@
   </div>
 </section>
 
-<!-- CLASSES DE ATIVOS -->
-<section class="section bg-sand" id="ativos">
-  <div class="wrap">
-    <div class="label reveal">Classes de Ativos</div>
-    <h2 class="h2 reveal">Diversifique com as melhores <em>oportunidades globais</em></h2>
-    <div class="grid grid--4">
-      <div class="card reveal"><div class="card__title">Stocks</div><div class="card__text">Diversifique seu portfólio investindo diretamente nas ações negociadas nas bolsas de valores norte-americanas.</div></div>
-      <div class="card reveal"><div class="card__title">Bonds e Treasuries</div><div class="card__text">Proteja seu patrimônio investindo em títulos de dívidas emitidos por empresas e títulos de dívida do governo norte-americano.</div></div>
-      <div class="card reveal"><div class="card__title">ETFs</div><div class="card__text">Fundos que replicam a carteira de um índice, acompanhando o seu desempenho com diversificação automática.</div></div>
-      <div class="card reveal"><div class="card__title">ADRs</div><div class="card__text">Recibos de ações emitidos nos EUA para negociação de ações de empresas de fora do país na NYSE.</div></div>
-      <div class="card reveal"><div class="card__title">REITs</div><div class="card__text">Empresas que financiam imóveis que geram renda, permitindo compra de cotas e recebimento de dividendos.</div></div>
-      <div class="card reveal"><div class="card__title">Conta Global XP</div><div class="card__text">Conta bancária internacional com cartão de débito e remessas instantâneas.</div></div>
-      <div class="card reveal"><div class="card__title">CDs</div><div class="card__text">Os "CDBs" americanos — emitidos pela XP, Santander, BTG, Safra e Banco do Brasil.</div></div>
-      <div class="card reveal"><div class="card__title">Notas Estruturadas</div><div class="card__text">Produto financeiro que mistura um título de renda fixa com uma estratégia de derivativos.</div></div>
+<!-- CLASSES DE ATIVOS (faixa com foto) -->
+<section class="why" id="ativos">
+  <div class="media media--parallax"><img src="img/band-golfe.webp" alt="" loading="lazy"></div>
+  <div class="wrap why__inner">
+    <div class="why__head">
+      <div>
+        <div class="label label--light reveal">Classes de Ativos</div>
+        <h2 class="h2 h2--light reveal">Diversifique com as melhores <em>oportunidades globais</em></h2>
+      </div>
+      <p class="lead lead--light reveal">Acesso direto ao mercado norte-americano e a estruturas globais, na mesma conta.</p>
     </div>
+    <ul class="why__list why__list--4">
+      <li class="why__item reveal"><div class="why__num">01</div><div><div class="why__title">Stocks</div><div class="why__text">Ações negociadas diretamente nas bolsas norte-americanas.</div></div></li>
+      <li class="why__item reveal"><div class="why__num">02</div><div><div class="why__title">Bonds e Treasuries</div><div class="why__text">Títulos de dívida de empresas e do governo norte-americano.</div></div></li>
+      <li class="why__item reveal"><div class="why__num">03</div><div><div class="why__title">ETFs</div><div class="why__text">Fundos que replicam um índice, com diversificação automática.</div></div></li>
+      <li class="why__item reveal"><div class="why__num">04</div><div><div class="why__title">ADRs</div><div class="why__text">Recibos emitidos nos EUA para ações de empresas de fora do país na NYSE.</div></div></li>
+      <li class="why__item reveal"><div class="why__num">05</div><div><div class="why__title">REITs</div><div class="why__text">Empresas que financiam imóveis geradores de renda e pagam dividendos.</div></div></li>
+      <li class="why__item reveal"><div class="why__num">06</div><div><div class="why__title">Conta Global XP</div><div class="why__text">Conta internacional com cartão de débito e remessas instantâneas.</div></div></li>
+      <li class="why__item reveal"><div class="why__num">07</div><div><div class="why__title">CDs</div><div class="why__text">Os "CDBs" americanos — emitidos pela XP, Santander, BTG, Safra e Banco do Brasil.</div></div></li>
+      <li class="why__item reveal"><div class="why__num">08</div><div><div class="why__title">Notas Estruturadas</div><div class="why__text">Renda fixa combinada a uma estratégia de derivativos.</div></div></li>
+    </ul>
   </div>
 </section>
 
 <!-- POR QUE DIVERSIFICAR -->
 <section class="section bg-white">
   <div class="wrap">
-    <div class="label reveal">Por que Diversificar?</div>
-    <h2 class="h2 reveal">Oportunidades <em>além do Brasil</em></h2>
-    <div class="split">
+    <div class="split split--center" style="margin-top:0">
+      <div class="media img-reveal"><img src="img/card-investimentos.webp" alt="Veleiros" loading="lazy"></div>
       <div class="reveal">
-        <div class="banner" style="margin-top:0">O Brasil representa apenas <strong>0,6%</strong> do total de títulos corporativos no mundo.</div>
+        <div class="label">Por que Diversificar?</div>
+        <h2 class="h2">Oportunidades <em>além do Brasil</em></h2>
         <p class="lead">Investidores brasileiros tendem a concentrar a maior parte do patrimônio em ativos do próprio país. A diversificação internacional oferece acesso a mercados mais amplos, proteção cambial e redução da correlação com ativos locais. O dólar é um hedge natural para os ativos brasileiros.</p>
+        <div class="banner">O Brasil representa apenas <strong>0,6%</strong> do total de títulos corporativos no mundo.</div>
       </div>
-      <div class="grid grid--2" style="margin-top:0">
-        <div class="card reveal"><div class="card__eyebrow">Mercado global</div><div class="card__big" style="margin:0">R$ 183 Tri</div></div>
-        <div class="card reveal"><div class="card__eyebrow">Mercado EUA</div><div class="card__big" style="margin:0">R$ 59 Tri</div></div>
-        <div class="card reveal"><div class="card__eyebrow">Mercado Brasil</div><div class="card__big" style="margin:0">R$ 1,4 Tri</div></div>
-        <div class="card reveal"><div class="card__eyebrow">NVDA, AAPL, GOOGL…</div><div class="card__text" style="color:var(--text-dark);font-weight:500">12 empresas do S&amp;P 500 são maiores que o Ibovespa</div></div>
-      </div>
+    </div>
+    <div class="grid grid--4" style="margin-top:64px">
+      <div class="card reveal"><div class="card__eyebrow">Mercado global</div><div class="card__big" style="margin:0">R$ 183 Tri</div></div>
+      <div class="card reveal"><div class="card__eyebrow">Mercado EUA</div><div class="card__big" style="margin:0">R$ 59 Tri</div></div>
+      <div class="card reveal"><div class="card__eyebrow">Mercado Brasil</div><div class="card__big" style="margin:0">R$ 1,4 Tri</div></div>
+      <div class="card reveal"><div class="card__eyebrow">NVDA, AAPL, GOOGL…</div><div class="card__text" style="color:var(--text-dark);font-weight:500">12 empresas do S&amp;P 500 são maiores que o Ibovespa</div></div>
     </div>
   </div>
 </section>
@@ -189,8 +185,9 @@
   </div>
 </section>
 
-<!-- QUOTE -->
-<section class="quote">
+<!-- QUOTE (sobre foto) -->
+<section class="quote quote--photo">
+  <div class="media media--parallax"><img src="img/why-alpes.webp" alt="" loading="lazy"></div>
   <div class="wrap">
     <div class="quote__t reveal">"Não basta apenas não colocar todos os ovos na mesma cesta; você precisa colocá-los nas cestas certas, que não sejam correlacionadas."</div>
     <div class="quote__a reveal">Ray Dalio</div>

@@ -34,6 +34,10 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 720p, sem
 | hero-seguros.webp | Hero seguros.html (hipismo) | 1600715187853-47512f8b0717 |
 | hero-cambio.webp | Hero cambio.html (carro clássico) | 1781264413731-7fa0fb939d08 |
 | hero-offshore.webp | Hero offshore.html (Alpes) | 1700142572634-150b3857e71d |
+| band-polo.webp | Faixa de números — seguros.html | 1516756953057-acad3b3d8d2d |
+| band-tenis.webp | Faixa Plano de Saúde — seguros.html | 1747647455910-6356d52f45da |
+| band-regata.webp | Faixa Diferenciais — cambio.html | 1604099239293-d07cd36f00ac |
+| band-golfe.webp | Faixa Classes de Ativos — offshore.html | 1696104470342-b1ed3afe8381 |
 
 ## Reaproveitados do site atual (`../img`, CDN oficial da Criteria)
 
