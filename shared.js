@@ -85,7 +85,7 @@
   var tlEl = document.querySelector('.tl');
   if (tlEl && document.getElementById('tlProgress')) {
     var dots = tlEl.querySelectorAll('.tl__dot-circle'), years = tlEl.querySelectorAll('.tl__year'), cells = tlEl.querySelectorAll('.tl__cell[data-year]');
-    var DUR = 1, n = dots.length;
+    var DUR = 5, n = dots.length;
     var tlAnim = gsap.timeline({ paused: true, repeat: -1, repeatDelay: 20 });
     tlAnim.fromTo('#tlProgress', { scaleX: 0 }, { scaleX: 1, duration: DUR, ease: 'none' }, 0);
     dots.forEach(function (d, i) {
