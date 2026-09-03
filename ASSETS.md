@@ -11,6 +11,8 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 720p, sem
 | video/hero-vela.mp4 (12 s) + img/hero-vela-poster.webp | Hero | https://www.pexels.com/video/852286/ |
 | video/numeros-torres.mp4 (10 s) + img/numeros-torres-poster.webp | Faixa de números | https://www.pexels.com/video/5941931/ |
 
+Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata**, **Offshore = neve/Alpes**. A home mistura todos os esportes.
+
 ## Fotos (Unsplash) — `https://unsplash.com/photos/<id>`
 
 | Arquivo | Uso | Unsplash photo id |
@@ -21,7 +23,7 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 720p, sem
 | card-seguros.webp | Onde Atuamos · Seguros (hipismo) | 1600715187853-47512f8b0717 |
 | card-ib.webp | Onde Atuamos · Investment Banking (SP) | 1645918899630-85e2f3132a84 |
 | card-offshore.webp | Onde Atuamos · Offshore (Alpes) | 1700142572634-150b3857e71d |
-| card-cambio.webp | Onde Atuamos · Câmbio (carro clássico) | 1781264413731-7fa0fb939d08 |
+| card-cambio.webp | Onde Atuamos · Câmbio (veleiro) | 1717054373388-b405bfd27707 |
 | card-capital.webp | Onde Atuamos · Capital (tênis) | 1658530190197-29f63baaa460 |
 | card-agro.webp | Onde Atuamos · Agro (vinhedo aéreo) | 1596695346787-be03f89b1cdd |
 | servicos-tenis.webp | Nossos Serviços | 1604259011171-2343696f776b |
@@ -32,21 +34,21 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 720p, sem
 | presenca-sp.webp | Presença | 1554168848-228452c09d60 |
 | cta-vela.webp | CTA final (todas as páginas) | 1528580279421-f0b84f9d7640 |
 | hero-seguros.webp | Hero seguros.html (hipismo) | 1600715187853-47512f8b0717 |
-| hero-cambio.webp | Hero cambio.html (carro clássico) | 1781264413731-7fa0fb939d08 |
+| hero-cambio.webp | Hero cambio.html (convés de veleiro) | 1545958140-244047d78f3a |
 | hero-offshore.webp | Hero offshore.html (Alpes) | 1700142572634-150b3857e71d |
 | band-polo.webp | Faixa de números — seguros.html | 1516756953057-acad3b3d8d2d |
-| band-tenis.webp | Faixa Plano de Saúde — seguros.html | 1747647455910-6356d52f45da |
+| band-cavalgada.webp | Faixa Plano de Saúde — seguros.html (cavaleiros) | 1636682153300-ce3882953a7c |
 | band-regata.webp | Faixa Diferenciais — cambio.html | 1604099239293-d07cd36f00ac |
-| band-golfe.webp | Faixa Classes de Ativos — offshore.html | 1696104470342-b1ed3afe8381 |
+| band-montanha.webp | Faixa Classes de Ativos — offshore.html (Alpes) | 1519931760384-a96fedd8dfa9 |
 | seg-vida.webp | seguros.html — Seguro de Vida | 1526038039141-92d734991065 |
-| seg-perfil-20.webp / -35 / -45 | seguros.html — perfis | 1750858285407-069e874245d4 / 1613578699399-82ae71be53a3 / 1757228727900-7758efc55404 |
-| seg-concierge.webp | seguros.html — Concierge | 1701428181041-d5b4f1d66a87 |
-| seg-empresarial.webp / seg-pessoal.webp | seguros.html — corporativos | 1561592390-42c07289e9cb / 1774244764291-d838d0e15b91 |
-| cam-remessas / cam-papel / cam-analise / cam-estruturacao | cambio.html — serviços | 1636730740074-67ae6e3324de / 1785449890451-9208ec267582 / 1645983709657-a2ac2005fb49 / 1697929263698-0b1f70618c21 |
+| seg-perfil-20.webp / -35 / -45 | seguros.html — perfis (hipismo) | 1604340597565-65b301ca8d8f / 1639370804113-c398aca25aee / 1757228727900-7758efc55404 |
+| seg-concierge.webp | seguros.html — Concierge (cuidado com o cavalo) | 1607273225241-035d579b8452 |
+| seg-empresarial.webp / seg-pessoal.webp | seguros.html — corporativos (SP / sela) | 1561592390-42c07289e9cb / 1783137675922-716b3ac61885 |
+| cam-remessas / cam-papel / cam-analise / cam-estruturacao | cambio.html — serviços (vela) | 1636730740074-67ae6e3324de / 1659899954642-6e6e99fcf4e3 / 1631995037903-c4f8064c48ae / 1777880652014-feee433c6be0 |
 | cam-cta.webp | cambio.html — CTA | 1630534416741-9f03d63dab22 |
-| off-global / off-us / off-mfo | offshore.html — modelos | 1764343704388-ac5e7db539bd / 1758314810669-346173121689 / 1506527240747-720a3e17b910 |
-| off-diversificar.webp | offshore.html — além do Brasil | 1592937238247-cd0090e02f65 |
-| off-quote.webp / off-cta.webp | offshore.html — citação / CTA | 1589878995301-0233a04c16dd / 1658101617638-b8653e27f7f2 |
+| off-global / off-us / off-mfo | offshore.html — modelos (neve) | 1764343704388-ac5e7db539bd / 1551698618-1dfe5d97d256 / 1610803523148-a0052fa341bb |
+| off-diversificar.webp | offshore.html — além do Brasil (teleférico) | 1595368247588-ef2732572d8b |
+| off-quote.webp / off-cta.webp | offshore.html — citação / CTA (neve) | 1589878995301-0233a04c16dd / 1578309830739-6226cb317b22 |
 | time-hero.webp | time.html — hero | 1571055177609-9c20e649f47e |
 | contato-hero.webp | contato.html — hero | 1561592390-ec0391c9c723 |
 
