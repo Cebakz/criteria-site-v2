@@ -18,13 +18,13 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | Arquivo | Uso | Unsplash photo id |
 |---|---|---|
 | historia-golfe.webp | Nossa História (golfista ao entardecer) | 1752661497402-5b3b6743d66a |
-| card-investimentos.webp | Onde Atuamos · Investimentos (vela) | 1501771924607-209f42a6e7e4 |
-| card-private.webp | Onde Atuamos · Private (golfe) | 1742498626081-a64f9677f468 |
+| card-investimentos.webp | Onde Atuamos · Investimentos (golfe) | 1763917379121-91130139aca0 |
+| card-private.webp | Onde Atuamos · Private (polo) | 1605999353377-37c775c79889 |
 | card-seguros.webp | Onde Atuamos · Seguros (hipismo) | 1600715187853-47512f8b0717 |
-| card-ib.webp | Onde Atuamos · Investment Banking (SP) | 1645918899630-85e2f3132a84 |
+| card-ib.webp | Onde Atuamos · Investment Banking (tênis) | 1714840961579-6b072a12536e |
 | card-offshore.webp | Onde Atuamos · Offshore (Alpes) | 1700142572634-150b3857e71d |
 | card-cambio.webp | Onde Atuamos · Câmbio (veleiro) | 1717054373388-b405bfd27707 |
-| card-capital.webp | Onde Atuamos · Capital (tênis) | 1658530190197-29f63baaa460 |
+| card-capital.webp | Onde Atuamos · Capital (remo) | 1697242877038-6213aa0822d9 |
 | card-agro.webp | Onde Atuamos · Agro (vinhedo aéreo) | 1596695346787-be03f89b1cdd |
 | servicos-tenis.webp | Nossos Serviços | 1604259011171-2343696f776b |
 | why-alpes.webp | Por que a Criteria (fundo) | 1489664729864-ee8499a4ddd5 |
