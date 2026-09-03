@@ -89,15 +89,15 @@
     <div class="label reveal">Nossos Serviços</div>
     <h2 class="h2 reveal">Acompanhamento <em>personalizado</em></h2>
     <p class="lead reveal">Uma jornada estruturada para a preservação e crescimento do seu patrimônio global.</p>
-    <div class="steps">
-      <div class="step reveal"><div class="step__n">01</div><div class="card__eyebrow">Etapa 1</div><div class="card__title">Onboarding</div><div class="card__text">Análise de perfil, estruturação jurídica e abertura de conta em jurisdições seguras.</div></div>
-      <div class="step reveal"><div class="step__n">02</div><div class="card__eyebrow">Etapa 2</div><div class="card__title">Alocação</div><div class="card__text">Implementação da estratégia baseada em teses de longo prazo.</div></div>
-      <div class="step reveal"><div class="step__n">03</div><div class="card__eyebrow">Etapa 3</div><div class="card__title">Monitoramento</div><div class="card__text">Acompanhamento contínuo, relatórios consolidados e ajustes táticos periódicos.</div></div>
+    <div class="fcards">
+      <div class="fcard reveal"><div class="fcard__num">ETAPA 01</div><div class="fcard__title">Onboarding</div><div class="fcard__text">Análise de perfil, <strong>estruturação jurídica</strong> e abertura de conta em jurisdições seguras.</div></div>
+      <div class="fcard reveal"><div class="fcard__num">ETAPA 02</div><div class="fcard__title">Alocação</div><div class="fcard__text">Implementação da estratégia baseada em <strong>teses de longo prazo</strong>.</div></div>
+      <div class="fcard reveal"><div class="fcard__num">ETAPA 03</div><div class="fcard__title">Monitoramento</div><div class="fcard__text">Acompanhamento contínuo, <strong>relatórios consolidados</strong> e ajustes táticos periódicos.</div></div>
     </div>
-    <div class="feature-cols feature-cols--3" style="margin-top:32px">
-      <div class="reveal"><h4>Planejamento sucessório</h4><div class="card__text">Estruturação de PICs, Trusts e Joint Tenancy para garantir a transferência eficiente de ativos.</div></div>
-      <div class="reveal"><h4>Eficiência tributária</h4><div class="card__text">Análise constante da matriz tributária para minimizar impactos e maximizar o retorno líquido.</div></div>
-      <div class="reveal"><h4>Banker dedicado</h4><div class="card__text">Acesso direto a especialistas para suporte em todas as etapas da jornada internacional.</div></div>
+    <div class="fcards" style="margin-top:44px">
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M12 7.5V12M12 12l-6 4.7M12 12l6 4.7"/></svg><div class="fcard__title">Planejamento sucessório</div><div class="fcard__text">Estruturação de <strong>PICs, Trusts e Joint Tenancy</strong> para garantir a transferência eficiente de ativos.</div></div>
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 15.5l7-7"/><circle cx="9" cy="9" r="1.2"/><circle cx="15" cy="15" r="1.2"/></svg><div class="fcard__title">Eficiência tributária</div><div class="fcard__text">Análise constante da matriz tributária para <strong>minimizar impactos e maximizar o retorno líquido</strong>.</div></div>
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.5a5 5 0 016 5"/></svg><div class="fcard__title">Banker dedicado</div><div class="fcard__text"><strong>Acesso direto a especialistas</strong> para suporte em todas as etapas da jornada internacional.</div></div>
     </div>
   </div>
 </section>
@@ -107,10 +107,17 @@
   <div class="wrap">
     <div class="label reveal">Jornada do Cliente</div>
     <h2 class="h2 reveal">XP <em>Internacional</em></h2>
-    <div class="grid grid--3">
-      <div class="card reveal"><div class="card__eyebrow">AUC 10k – 500k USD</div><div class="card__title">Global</div><ul class="checks"><li>Pessoa Física</li><li>TOD (Transfer on Death)</li><li>Foco em ativos non-US</li><li>Banking: cartão de débito e Wire In</li></ul></div>
-      <div class="card reveal"><div class="card__eyebrow">AUC 500k USD +</div><div class="card__title">US (Pershing)</div><ul class="checks"><li>Pessoa Física</li><li>TOD (Transfer on Death)</li><li>Foco em ativos non-US</li><li>Banking: serviço completo</li></ul></div>
-      <div class="card reveal"><div class="card__eyebrow">AUC 1mm USD +</div><div class="card__title">US (PWM)</div><ul class="checks"><li>Pessoa Jurídica</li><li>Estruturação offshore</li><li>Sem restrição de ativos</li><li>Banking: serviço completo</li></ul></div>
+    <div class="vtabs reveal">
+      <div class="vtabs__list" role="tablist">
+        <button class="vtab active" role="tab" data-tab="gl"><small>AUC 10k – 500k USD</small><span>Global</span></button>
+        <button class="vtab" role="tab" data-tab="pe"><small>AUC 500k USD +</small><span>US (Pershing)</span></button>
+        <button class="vtab" role="tab" data-tab="pw"><small>AUC 1mm USD +</small><span>US (PWM)</span></button>
+      </div>
+      <div class="vpanels">
+        <div class="vpanel active" id="vpanel-gl"><div class="vpanel__eyebrow">AUC 10k – 500k USD</div><div class="vpanel__title">Global</div><p>Porta de entrada para o investidor pessoa física, com <strong>execução digital e conta bancária internacional</strong>.</p><ul class="checks"><li>Pessoa Física</li><li>TOD (Transfer on Death)</li><li>Foco em ativos non-US</li><li>Banking: cartão de débito e Wire In</li></ul></div>
+        <div class="vpanel" id="vpanel-pe"><div class="vpanel__eyebrow">AUC 500k USD +</div><div class="vpanel__title">US (Pershing)</div><p>Custódia nos Estados Unidos com <strong>serviço bancário completo</strong> e suporte do banker em Miami.</p><ul class="checks"><li>Pessoa Física</li><li>TOD (Transfer on Death)</li><li>Foco em ativos non-US</li><li>Banking: serviço completo</li></ul></div>
+        <div class="vpanel" id="vpanel-pw"><div class="vpanel__eyebrow">AUC 1mm USD +</div><div class="vpanel__title">US (PWM)</div><p>Estrutura para pessoa jurídica offshore, <strong>sem restrição de ativos</strong> e com gestão discricionária disponível.</p><ul class="checks"><li>Pessoa Jurídica</li><li>Estruturação offshore</li><li>Sem restrição de ativos</li><li>Banking: serviço completo</li></ul></div>
+      </div>
     </div>
   </div>
 </section>
@@ -151,11 +158,11 @@
         <div class="banner">O Brasil representa apenas <strong>0,6%</strong> do total de títulos corporativos no mundo.</div>
       </div>
     </div>
-    <div class="grid grid--4" style="margin-top:64px">
-      <div class="card reveal"><div class="card__eyebrow">Mercado global</div><div class="card__big" style="margin:0">R$ 183 Tri</div></div>
-      <div class="card reveal"><div class="card__eyebrow">Mercado EUA</div><div class="card__big" style="margin:0">R$ 59 Tri</div></div>
-      <div class="card reveal"><div class="card__eyebrow">Mercado Brasil</div><div class="card__big" style="margin:0">R$ 1,4 Tri</div></div>
-      <div class="card reveal"><div class="card__eyebrow">NVDA, AAPL, GOOGL…</div><div class="card__text" style="color:var(--text-dark);font-weight:500">12 empresas do S&amp;P 500 são maiores que o Ibovespa</div></div>
+    <div class="fcards fcards--4" style="margin-top:72px">
+      <div class="fcard reveal"><div class="fcard__num">MERCADO GLOBAL</div><div class="fcard__big">R$ 183 Tri</div></div>
+      <div class="fcard reveal"><div class="fcard__num">MERCADO EUA</div><div class="fcard__big">R$ 59 Tri</div></div>
+      <div class="fcard reveal"><div class="fcard__num">MERCADO BRASIL</div><div class="fcard__big">R$ 1,4 Tri</div></div>
+      <div class="fcard reveal"><div class="fcard__num">NVDA, AAPL, GOOGL…</div><div class="fcard__text"><strong>12 empresas do S&amp;P 500</strong> são maiores que o Ibovespa.</div></div>
     </div>
   </div>
 </section>
@@ -185,10 +192,10 @@
         </tbody>
       </table>
     </div>
-    <div class="grid grid--3" style="margin-top:32px">
-      <div class="card reveal"><div class="card__title">PIC (Offshore)</div><div class="card__text">Estrutura definitiva para isenção total de Estate Tax nos EUA.</div></div>
-      <div class="card reveal"><div class="card__title">Trust</div><div class="card__text">Regras personalizadas para distribuição multigeracional de ativos.</div></div>
-      <div class="card reveal"><div class="card__title">TOD</div><div class="card__text">Transfer on Death: transferência direta e simplificada a beneficiários.</div></div>
+    <div class="fcards" style="margin-top:56px">
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><path d="M12 4l9 5-9 5-9-5z"/><path d="M3 14l9 5 9-5"/></svg><div class="fcard__title">PIC (Offshore)</div><div class="fcard__text">Estrutura definitiva para <strong>isenção total de Estate Tax</strong> nos EUA.</div></div>
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3M15 12v2"/></svg><div class="fcard__title">Trust</div><div class="fcard__text">Regras personalizadas para <strong>distribuição multigeracional</strong> de ativos.</div></div>
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><div class="fcard__title">TOD</div><div class="fcard__text">Transfer on Death: <strong>transferência direta e simplificada</strong> a beneficiários.</div></div>
     </div>
   </div>
 </section>

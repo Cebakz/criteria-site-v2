@@ -13,6 +13,17 @@
     a.addEventListener('click', function (e) { var id = this.getAttribute('href'); if (id.length < 2) return; var t = document.querySelector(id); if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); } });
   });
 
+  /* abas verticais (.vtabs) */
+  document.querySelectorAll('.vtabs').forEach(function (box) {
+    box.querySelectorAll('.vtab').forEach(function (b) {
+      b.addEventListener('click', function () {
+        box.querySelectorAll('.vtab').forEach(function (t) { t.classList.toggle('active', t === b); });
+        box.querySelectorAll('.vpanel').forEach(function (p) { p.classList.toggle('active', p.id === 'vpanel-' + b.dataset.tab); });
+        if (window.ScrollTrigger) ScrollTrigger.refresh();
+      });
+    });
+  });
+
   /* videos: only load on desktop + no reduced motion */
   document.querySelectorAll('video[data-src]').forEach(function (v) {
     if (!desktop || reduce) return;

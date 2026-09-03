@@ -189,10 +189,10 @@
         </ul>
       </div>
     </div>
-    <div class="grid grid--3" style="margin-top:64px">
-      <div class="card reveal"><div class="card__big">71%</div><div class="card__text">Das pessoas consideram o pacote de benefícios ao avaliar uma proposta de emprego.</div></div>
-      <div class="card reveal"><div class="card__big">77%</div><div class="card__text">Destes têm a assistência médica como fator principal para escolher uma empresa.</div></div>
-      <div class="card reveal"><div class="card__eyebrow">Resultados comprovados</div><ul class="checks" style="margin-top:0"><li>+70% engajamento com assistentes de saúde</li><li>Redução de até 25% nos custos de benefícios</li><li>Diminuição do absenteísmo e do turnover</li><li>Melhora na retenção de talentos</li></ul></div>
+    <div class="fcards" style="margin-top:72px">
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.5a5 5 0 016 5"/></svg><div class="fcard__big">71%</div><div class="fcard__text">Das pessoas <strong>consideram o pacote de benefícios</strong> ao avaliar uma proposta de emprego.</div></div>
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/><path d="M8 12h2l1.5-3 2 6 1.5-3h2"/></svg><div class="fcard__big">77%</div><div class="fcard__text">Destes têm a <strong>assistência médica como fator principal</strong> para escolher uma empresa.</div></div>
+      <div class="fcard reveal"><svg class="fcard__icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 15.5l7-7"/><circle cx="9" cy="9" r="1.2"/><circle cx="15" cy="15" r="1.2"/></svg><div class="fcard__title">Resultados comprovados</div><div class="fcard__text"><strong>+70% de engajamento</strong> com assistentes de saúde, <strong>redução de até 25%</strong> nos custos de benefícios, menos absenteísmo e turnover, mais retenção de talentos.</div></div>
     </div>
   </div>
 </section>
@@ -203,21 +203,16 @@
     <div class="label reveal">03 &mdash; Crédito PF</div>
     <h2 class="h2 reveal">Soluções de <em>crédito inteligente</em></h2>
     <p class="lead reveal">Planejamento de conquistas, aquisição de bens e alavancagem patrimonial com flexibilidade e segurança.</p>
-    <div class="grid grid--3">
-      <div class="card reveal">
-        <div class="card__eyebrow">Compra programada</div><div class="card__title">Consórcio</div>
-        <div class="card__text">Sem juros (apenas taxa de administração). Ideal para quem planeja a aquisição com menor custo e foco no longo prazo.</div>
-        <ul class="checks"><li>Parcelas acessíveis sem juros</li><li>Lance com FGTS ou recursos próprios</li><li>Utilização livre após contemplação</li><li>Imobiliário, Auto, Pesado, Serviços</li><li>Carta pode ser usada em nome de terceiros</li></ul>
+    <div class="vtabs reveal">
+      <div class="vtabs__list" role="tablist">
+        <button class="vtab active" role="tab" data-tab="cons"><small>Compra programada</small><span>Consórcio</span></button>
+        <button class="vtab" role="tab" data-tab="fin"><small>Aquisição imediata</small><span>Financiamento</span></button>
+        <button class="vtab" role="tab" data-tab="he"><small>Garantia de imóvel</small><span>Home Equity</span></button>
       </div>
-      <div class="card reveal">
-        <div class="card__eyebrow">Aquisição imediata</div><div class="card__title">Financiamento</div>
-        <div class="card__text">Crédito direto para imóveis residenciais, comerciais ou veículos, com prazos longos e taxas competitivas.</div>
-        <ul class="checks"><li>Crédito com garantia real</li><li>Prazos estendidos (até 420 meses)</li><li>Possibilidade de uso de FGTS</li><li>Financiamento com bancos parceiros</li><li>Avaliação rápida com suporte da equipe</li></ul>
-      </div>
-      <div class="card reveal">
-        <div class="card__eyebrow">Garantia de imóvel</div><div class="card__title">Home Equity</div>
-        <div class="card__text">Empréstimo com garantia de imóvel quitado. Taxas menores, liberdade de uso e prazos longos.</div>
-        <ul class="checks"><li>R$ 50 mil até 60% do valor do imóvel</li><li>Taxas a partir de 0,95% ao mês</li><li>Prazo de até 20 anos</li><li>Imóvel continua no nome do cliente</li><li>Uso livre: investimento, reforma, dívidas</li></ul>
+      <div class="vpanels">
+        <div class="vpanel active" id="vpanel-cons"><div class="vpanel__eyebrow">Compra programada</div><div class="vpanel__title">Consórcio</div><p><strong>Sem juros</strong>, apenas taxa de administração. Ideal para quem planeja a aquisição com menor custo e foco no longo prazo.</p><ul class="checks"><li>Parcelas acessíveis sem juros</li><li>Lance com FGTS ou recursos próprios</li><li>Utilização livre após contemplação</li><li>Imobiliário, Auto, Pesado, Serviços</li><li>Carta pode ser usada em nome de terceiros</li></ul></div>
+        <div class="vpanel" id="vpanel-fin"><div class="vpanel__eyebrow">Aquisição imediata</div><div class="vpanel__title">Financiamento</div><p>Crédito direto para imóveis residenciais, comerciais ou veículos, com <strong>prazos longos e taxas competitivas</strong>.</p><ul class="checks"><li>Crédito com garantia real</li><li>Prazos estendidos (até 420 meses)</li><li>Possibilidade de uso de FGTS</li><li>Financiamento com bancos parceiros</li><li>Avaliação rápida com suporte da equipe</li></ul></div>
+        <div class="vpanel" id="vpanel-he"><div class="vpanel__eyebrow">Garantia de imóvel</div><div class="vpanel__title">Home Equity</div><p>Empréstimo com garantia de imóvel quitado. <strong>Taxas menores, liberdade de uso e prazos longos.</strong></p><ul class="checks"><li>R$ 50 mil até 60% do valor do imóvel</li><li>Taxas a partir de 0,95% ao mês</li><li>Prazo de até 20 anos</li><li>Imóvel continua no nome do cliente</li><li>Uso livre: investimento, reforma, dívidas</li></ul></div>
       </div>
     </div>
     <div class="banner reveal" style="background:#fff">Enquanto o <strong>financiamento</strong> é para quem precisa do bem de forma imediata, o <strong>consórcio</strong> é ideal para quem planeja a aquisição com inteligência e foco no longo prazo.</div>
