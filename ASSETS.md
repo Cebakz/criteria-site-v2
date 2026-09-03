@@ -46,6 +46,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | seg-empresarial.webp / seg-pessoal.webp | seguros.html — corporativos (SP / sela) | 1561592390-42c07289e9cb / 1783137675922-716b3ac61885 |
 | cam-remessas / cam-papel / cam-analise / cam-estruturacao | cambio.html — serviços (vela) | 1636730740074-67ae6e3324de / 1659899954642-6e6e99fcf4e3 / 1631995037903-c4f8064c48ae / 1777880652014-feee433c6be0 |
 | cam-cta.webp | cambio.html — CTA | 1630534416741-9f03d63dab22 |
+| cam-pf.webp / cam-pj.webp | cambio.html — Pessoa Física / Pessoa Jurídica | 1605387202149-47169c4ea58a / 1513432800008-a900568fccfe |
 | off-global / off-us / off-mfo | offshore.html — modelos (neve) | 1764343704388-ac5e7db539bd / 1551698618-1dfe5d97d256 / 1610803523148-a0052fa341bb |
 | off-diversificar.webp | offshore.html — além do Brasil (teleférico) | 1595368247588-ef2732572d8b |
 | off-quote.webp / off-cta.webp | offshore.html — citação / CTA (neve) | 1589878995301-0233a04c16dd / 1578309830739-6226cb317b22 |
