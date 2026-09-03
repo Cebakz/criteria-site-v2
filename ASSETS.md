@@ -38,6 +38,17 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 720p, sem
 | band-tenis.webp | Faixa Plano de Saúde — seguros.html | 1747647455910-6356d52f45da |
 | band-regata.webp | Faixa Diferenciais — cambio.html | 1604099239293-d07cd36f00ac |
 | band-golfe.webp | Faixa Classes de Ativos — offshore.html | 1696104470342-b1ed3afe8381 |
+| seg-vida.webp | seguros.html — Seguro de Vida | 1526038039141-92d734991065 |
+| seg-perfil-20.webp / -35 / -45 | seguros.html — perfis | 1750858285407-069e874245d4 / 1613578699399-82ae71be53a3 / 1757228727900-7758efc55404 |
+| seg-concierge.webp | seguros.html — Concierge | 1701428181041-d5b4f1d66a87 |
+| seg-empresarial.webp / seg-pessoal.webp | seguros.html — corporativos | 1561592390-42c07289e9cb / 1774244764291-d838d0e15b91 |
+| cam-remessas / cam-papel / cam-analise / cam-estruturacao | cambio.html — serviços | 1636730740074-67ae6e3324de / 1785449890451-9208ec267582 / 1645983709657-a2ac2005fb49 / 1697929263698-0b1f70618c21 |
+| cam-cta.webp | cambio.html — CTA | 1630534416741-9f03d63dab22 |
+| off-global / off-us / off-mfo | offshore.html — modelos | 1764343704388-ac5e7db539bd / 1758314810669-346173121689 / 1506527240747-720a3e17b910 |
+| off-diversificar.webp | offshore.html — além do Brasil | 1592937238247-cd0090e02f65 |
+| off-quote.webp / off-cta.webp | offshore.html — citação / CTA | 1589878995301-0233a04c16dd / 1658101617638-b8653e27f7f2 |
+| time-hero.webp | time.html — hero | 1571055177609-9c20e649f47e |
+| contato-hero.webp | contato.html — hero | 1561592390-ec0391c9c723 |
 
 ## Reaproveitados do site atual (`../img`, CDN oficial da Criteria)
 

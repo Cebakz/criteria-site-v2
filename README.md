@@ -8,6 +8,7 @@ Publicado em **https://cebakz.github.io/criteria-site-v2/**
 
 - `index.html` — home
 - `seguros.html` · `cambio.html` · `offshore.html` — ecossistema
+- `time.html` — diretório de assessores com busca · `contato.html` — canais, filiais e formulário (sem backend: preencher `TO` no script para abrir e-mail)
 - `shared.css` + `shared.js` — estilos, tokens e motion compartilhados
 - `img/` (webp) e `video/` (mp4 720p) — assets; origem e licença em `ASSETS.md`
 

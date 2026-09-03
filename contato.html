@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — Criteria Financial Group</title>
+<meta name="description" content="Fale com a Criteria: telefone, endereços das filiais e formulário de contato.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23122940%27/%3E%3Ctext x=%2716%27 y=%2722%27 text-anchor=%27middle%27 font-family=%27Georgia,serif%27 font-size=%2720%27 fill=%27%23fff%27%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><img src="img/logo-criteria.svg" alt="Criteria Financial Group"></a>
+    <ul class="nav__links">
+      <li><a href="index.html#about" class="nav__link">A Criteria</a></li>
+      <li><a href="index.html#services" class="nav__link">Atuação</a></li>
+      <li class="nav__link nav__link--dd"><span>Ecossistema</span>
+        <div class="nav__dd">
+          <a href="seguros.html">Seguros</a><a href="#">Capital</a><a href="cambio.html">Câmbio</a>
+          <a href="offshore.html">Offshore</a><a href="#">Agro</a>
+        </div>
+      </li>
+      <li><a href="time.html" class="nav__link">Time</a></li>
+      <li><a href="index.html#insights" class="nav__link">Mídia</a></li>
+    </ul>
+    <a href="contato.html" class="nav__cta">Fale Conosco</a>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about">A Criteria</a>
+  <a href="index.html#services">Atuação</a>
+  <a href="index.html#profiles">Perfis</a>
+  <a href="time.html">Time</a>
+  <a href="index.html#insights">Mídia</a>
+  <a href="contato.html">Contato</a>
+  <small>Ecossistema</small>
+  <div class="sub"><a href="seguros.html">Seguros</a><a href="cambio.html">Câmbio</a><a href="offshore.html">Offshore</a></div>
+</div>
+
+<!-- HERO -->
+<section class="hero hero--sub" id="top">
+  <div class="hero__media"><img src="img/contato-hero.webp" alt="" fetchpriority="high"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <div class="hero__crumb" data-hero><a href="index.html">Criteria</a><span>/</span>Contato</div>
+    <h1 class="hero__title"><span class="line"><span>Fale com</span></span><span class="line"><span><em>a Criteria</em></span></span></h1>
+    <div class="hero__row">
+      <p class="hero__sub" data-hero>Um especialista retorna o contato para entender seu momento e desenhar, junto com você, o próximo passo.</p>
+      <div class="hero__ctas" data-hero><a href="tel:+551131249696" class="btn btn--solid">(11) 3124-9696</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- CANAIS + FORMULÁRIO -->
+<section class="section bg-white" id="form">
+  <div class="wrap">
+    <div class="contact">
+      <div class="reveal">
+        <div class="label">Canais</div>
+        <h2 class="h2">Estamos <em>à disposição</em></h2>
+        <div class="contact__list">
+          <div class="contact__item"><span>Telefone</span><a href="tel:+551131249696">(11) 3124-9696</a></div>
+          <div class="contact__item"><span>Sede</span><b>Av. Magalhães de Castro, 4800 — Torre 3<br>Jardim Panorama, São Paulo — SP, 05676-120</b></div>
+          <div class="contact__item"><span>Redes</span><b><a href="https://www.instagram.com/criteriainvestimentos">Instagram</a> · <a href="https://www.linkedin.com/company/criteria-financial-group/">LinkedIn</a> · <a href="https://youtube.com/@CriteriaInvestimentos">YouTube</a> · <a href="https://www.facebook.com/criteriafinancialgroup">Facebook</a></b></div>
+          <div class="contact__item"><span>Ouvidoria XP</span><b>0800 722 3730</b></div>
+          <div class="contact__item"><span>SAC / Ouvidoria BS2</span><b>0800 545 5252 · 0800 726 8889</b></div>
+        </div>
+      </div>
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="form__row">
+          <label class="field"><span>Nome</span><input type="text" name="nome" required autocomplete="name"></label>
+          <label class="field"><span>E-mail</span><input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Telefone</span><input type="tel" name="telefone" autocomplete="tel"></label>
+          <label class="field"><span>Assunto</span>
+            <select name="assunto"><option>Investimentos</option><option>Private</option><option>Seguros</option><option>Câmbio</option><option>Offshore</option><option>Capital / Crédito</option><option>Investment Banking</option><option>Agro</option><option>Outro</option></select>
+          </label>
+        </div>
+        <label class="field"><span>Sua mensagem</span><textarea name="mensagem" rows="5" required></textarea></label>
+        <button type="submit" class="btn btn--blue">Enviar mensagem <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <p class="form__note" id="formNote">Ao enviar, você concorda com nossa Política de Privacidade.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ESCRITÓRIOS -->
+<section class="section bg-sand" id="escritorios">
+  <div class="wrap">
+    <div class="label reveal">Onde estamos</div>
+    <h2 class="h2 reveal">11 filiais no Brasil, <em>Suíça e Estados Unidos</em></h2>
+    <div class="offices">
+      <div class="office reveal"><div class="office__city">São Paulo <small>SP — Sede</small></div><div class="office__addr">Av. Magalhães de Castro, 4800 — Torre 3, Jardim Panorama, 05676-120</div></div>
+      <div class="office reveal"><div class="office__city">Rio de Janeiro <small>RJ</small></div><div class="office__addr">Av. Olegário Maciel, 531 — Barra da Tijuca, 22621-201</div></div>
+      <div class="office reveal"><div class="office__city">Curitiba <small>PR</small></div><div class="office__addr">Rua Nunes Machado, 68 — Lj 01, The Five East Batel<br>Rua Emiliano Perneta, 822 — Sl 1101, Centro</div></div>
+      <div class="office reveal"><div class="office__city">Maringá <small>PR</small></div><div class="office__addr">Av. Carneiro Leão, 563 — Zona 01, 87014-010</div></div>
+      <div class="office reveal"><div class="office__city">Cascavel <small>PR</small></div><div class="office__addr">Rua Pres. Kennedy, 660 — Sala 01, Centro</div></div>
+      <div class="office reveal"><div class="office__city">Fortaleza <small>CE</small></div><div class="office__addr">R. Ary Barroso, 70 — Papicu, 60175-705</div></div>
+      <div class="office reveal"><div class="office__city">Vitória <small>ES</small></div><div class="office__addr">Av. Nossa Sra. dos Navegantes, 955 — Sala 1803, Enseada do Suá</div></div>
+      <div class="office reveal"><div class="office__city">Manaus <small>AM</small></div><div class="office__addr">R. Salvador, 440 — Sala 505, Soberane Live + Work, Adrianópolis</div></div>
+      <div class="office reveal"><div class="office__city">Lavras <small>MG</small></div><div class="office__addr">Praça Doutor Augusto Silva, 602 — Casa, Centro</div></div>
+      <div class="office reveal"><div class="office__city">Aracaju <small>SE</small></div><div class="office__addr">Consulte o escritório pelo telefone da sede</div></div>
+      <div class="office reveal"><div class="office__city">Sinop <small>MT</small></div><div class="office__addr">Consulte o escritório pelo telefone da sede</div></div>
+      <div class="office office--intl reveal"><div class="office__city">Internacional</div><div class="office__addr">Suíça · Estados Unidos (Miami &amp; Nova York)</div></div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  // Sem backend configurado: o envio abre o cliente de e-mail do visitante com a mensagem preenchida.
+  var TO = ''; // preencher com o e-mail de contato da Criteria (ex.: contato@criteriafg.com.br)
+  var f = document.getElementById('contactForm'), note = document.getElementById('formNote');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!f.checkValidity()) { f.reportValidity(); return; }
+    var d = new FormData(f);
+    var body = 'Nome: ' + d.get('nome') + '\nE-mail: ' + d.get('email') + '\nTelefone: ' + (d.get('telefone') || '-') + '\nAssunto: ' + d.get('assunto') + '\n\n' + d.get('mensagem');
+    if (TO) { location.href = 'mailto:' + TO + '?subject=' + encodeURIComponent('Contato pelo site — ' + d.get('assunto')) + '&body=' + encodeURIComponent(body); note.textContent = 'Abrimos seu aplicativo de e-mail com a mensagem preenchida.'; }
+    else { note.textContent = 'Formulário ainda sem destino configurado. Ligue para (11) 3124-9696 ou fale pelas redes sociais.'; }
+  });
+})();
+</script>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="img/logo-criteria.svg" alt="Criteria Financial Group">
+        <p>Soluções financeiras integradas com excelência, transparência e visão de longo prazo.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/criteriainvestimentos" aria-label="Instagram">IG</a>
+          <a href="https://www.linkedin.com/company/criteria-financial-group/" aria-label="LinkedIn">LI</a>
+          <a href="https://youtube.com/@CriteriaInvestimentos" aria-label="YouTube">YT</a>
+          <a href="https://www.facebook.com/criteriafinancialgroup" aria-label="Facebook">FB</a>
+        </div>
+      </div>
+      <div class="footer__col"><h4>Institucional</h4><ul><li><a href="index.html#about">A Criteria</a></li><li><a href="time.html">Time</a></li><li><a href="#">Carreiras</a></li><li><a href="index.html#insights">Mídia</a></li></ul></div>
+      <div class="footer__col"><h4>Grupo</h4><ul><li><a href="seguros.html">Seguros</a></li><li><a href="#">Capital</a></li><li><a href="cambio.html">Câmbio</a></li><li><a href="offshore.html">Offshore</a></li><li><a href="#">Agro</a></li></ul></div>
+      <div class="footer__col"><h4>Legal</h4><ul><li><a href="#">Termos de Uso</a></li><li><a href="#">Política de Privacidade</a></li><li><a href="#">Acessibilidade</a></li></ul></div>
+      <div class="footer__col"><h4><a href="contato.html" style="color:inherit;text-decoration:none">Contato</a></h4><div class="footer__contact"><b>(11) 3124-9696</b>Av. Magalhães de Castro, 4800<br>Torre 3 — Jardim Panorama<br>São Paulo — SP, 05676-120</div></div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__legal">A Criteria Invest Assessor de Investimento Ltda é uma assessoria de investimento devidamente registrada na Comissão de Valores Mobiliários na forma da Resolução 178 de 2023. Credenciada à XP Investimentos CCTVM S/A. Na forma da legislação CVM, a assessoria de investimento não pode administrar ou gerir o patrimônio do investidor. O investimento em ações é um investimento de risco e rentabilidade passada não é garantia de rentabilidade futura. Criteria Services Serviços Administrativos LTDA está credenciado como Correspondente Cambial do Banco BS2 S.A. SAC (BS2): 0800 545 5252. Ouvidoria (BS2): 0800 726 8889.</div>
+      <div class="footer__copy">&copy; 2026 Criteria Financial Group</div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var desktop = window.matchMedia('(min-width: 768px)').matches;
+
+  /* nav */
+  var nav = document.getElementById('nav');
+  function onScroll() { nav.classList.toggle('nav--solid', window.scrollY > 40); }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  var burger = document.getElementById('burger'), menu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', function () { burger.classList.toggle('open'); menu.classList.toggle('open'); document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : ''; });
+  menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { burger.classList.remove('open'); menu.classList.remove('open'); document.body.style.overflow = ''; }); });
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) { var id = this.getAttribute('href'); if (id.length < 2) return; var t = document.querySelector(id); if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); } });
+  });
+
+  /* videos: only load on desktop + no reduced motion */
+  document.querySelectorAll('video[data-src]').forEach(function (v) {
+    if (!desktop || reduce) return;
+    var src = v.getAttribute('data-src');
+    var load = function () {
+      if (v.src) return;
+      v.src = src; v.load();
+      v.addEventListener('canplay', function () { v.classList.add('ready'); v.play().catch(function () {}); }, { once: true });
+    };
+    if (v.closest('.hero')) load();
+    else if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { load(); io.disconnect(); } }); }, { rootMargin: '600px' }); io.observe(v); }
+    else load();
+    v.classList.add('ready');
+  });
+
+  if (!window.gsap || !window.ScrollTrigger) return;
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.ticker.lagSmoothing(0);
+  if (reduce) return;
+
+  /* hero intro */
+  gsap.from('.hero__title .line > span', { yPercent: 110, duration: 1.4, stagger: 0.14, ease: 'power4.out', delay: 0.25 });
+  gsap.from('[data-hero]', { y: 24, opacity: 0, duration: 1.1, stagger: 0.12, ease: 'power3.out', delay: 0.9 });
+  gsap.from('.hero__scroll', { opacity: 0, duration: 1, delay: 1.6 });
+  gsap.to('.hero__media', { yPercent: 18, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+  gsap.to('.hero__content', { y: 80, opacity: 0.2, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+
+  /* generic reveals */
+  gsap.utils.toArray('.reveal').forEach(function (el) {
+    gsap.from(el, { y: 44, opacity: 0, duration: 1.1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 90%', once: true } });
+  });
+
+  /* image clip reveals */
+  gsap.utils.toArray('.img-reveal').forEach(function (el) {
+    var img = el.querySelector('img');
+    var tl = gsap.timeline({ scrollTrigger: { trigger: el, start: 'top 85%', once: true } });
+    tl.fromTo(el, { clipPath: 'inset(0 0 100% 0)' }, { clipPath: 'inset(0 0 0% 0)', duration: 1.5, ease: 'power4.inOut' }, 0)
+      .fromTo(img, { scale: 1.22 }, { scale: 1, duration: 2.2, ease: 'power3.out' }, 0);
+  });
+
+  /* parallax media */
+  gsap.utils.toArray('.media--parallax').forEach(function (el) {
+    var m = el.querySelector('img, video'); if (!m) return;
+    gsap.fromTo(m, { yPercent: -8 }, { yPercent: 8, ease: 'none', scrollTrigger: { trigger: el.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } });
+  });
+
+  /* counters */
+  gsap.utils.toArray('[data-count]').forEach(function (el) {
+    var end = parseFloat(el.getAttribute('data-count')), pre = el.getAttribute('data-prefix') || '', suf = el.getAttribute('data-suffix') || '';
+    var o = { v: 0 };
+    ScrollTrigger.create({ trigger: el, start: 'top 88%', once: true, onEnter: function () {
+      gsap.to(o, { v: end, duration: 2.2, ease: 'power3.out', onUpdate: function () { el.textContent = pre + Math.round(o.v) + suf; } });
+    } });
+  });
+
+  /* timeline progress */
+  gsap.to('#tlProgress', { scaleX: 1, ease: 'none', scrollTrigger: { trigger: '.tl', start: 'top 85%', end: 'top 30%', scrub: 0.3 } });
+
+})();
+</script>
+</body>
+</html>
