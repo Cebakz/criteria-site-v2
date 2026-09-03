@@ -85,8 +85,8 @@
   var tlEl = document.querySelector('.tl');
   if (tlEl && document.getElementById('tlProgress')) {
     var dots = tlEl.querySelectorAll('.tl__dot-circle'), years = tlEl.querySelectorAll('.tl__year'), cells = tlEl.querySelectorAll('.tl__cell[data-year]');
-    var DUR = 5, n = dots.length;
-    var tlAnim = gsap.timeline({ paused: true, repeat: -1, repeatDelay: 20 });
+    var DUR = 3, n = dots.length;
+    var tlAnim = gsap.timeline({ paused: true });
     tlAnim.fromTo('#tlProgress', { scaleX: 0 }, { scaleX: 1, duration: DUR, ease: 'none' }, 0);
     dots.forEach(function (d, i) {
       var t = (((i + 0.5) / n - 0.04) / 0.92) * DUR;
@@ -98,7 +98,10 @@
       var t = (((i + 0.5) / n - 0.04) / 0.92) * DUR;
       tlAnim.fromTo(c, { opacity: 0.3, y: 8 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, t);
     });
-    ScrollTrigger.create({ trigger: tlEl, start: 'top 85%', end: 'bottom 10%', onEnter: function () { tlAnim.play(); }, onEnterBack: function () { tlAnim.play(); }, onLeave: function () { tlAnim.pause(); }, onLeaveBack: function () { tlAnim.pause(); } });
+    var tlPlay = function () { if (tlAnim.progress() === 0 && !tlAnim.isActive()) tlAnim.play(); };
+    ScrollTrigger.create({ trigger: tlEl, start: 'top 85%', once: true, onEnter: tlPlay });
+    // recarga da página com o scroll já abaixo da seção: garante que a animação rode (ou termine) mesmo assim
+    window.addEventListener('load', function () { ScrollTrigger.refresh(); setTimeout(function () { if (tlEl.getBoundingClientRect().top < window.innerHeight * 0.85) tlPlay(); }, 600); });
   }
 
 })();
