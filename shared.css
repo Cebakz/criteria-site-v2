@@ -65,7 +65,7 @@ section { position: relative; }
 .bg-white { background: #fff; }
 .bg-ink { background: var(--ink); }
 .bg-navy { background: var(--navy); }
-.section { padding: 140px 0; }
+.section { padding: 112px 0; }
 
 /* ---------- nav ---------- */
 .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; transition: background .6s var(--ease), box-shadow .6s, padding .6s var(--ease); }
