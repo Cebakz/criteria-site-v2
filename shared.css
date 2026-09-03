@@ -690,3 +690,4 @@ section { position: relative; }
 .dealrow:hover .dealrow__logos img { filter: none; opacity: 1; }
 @media (max-width: 1100px) { .dealrow { grid-template-columns: 70px 1fr 160px; } .dealrow__type { grid-column: 2; } .dealrow__text { grid-column: 2; } .dealrow__logos { grid-column: 3; grid-row: 1 / span 2; } }
 @media (max-width: 768px) { .dealrow { grid-template-columns: 1fr; gap: 8px; } .dealrow__logos { grid-column: 1; grid-row: auto; justify-content: flex-start; } }
+.checks li strong { font-weight: 600; color: var(--navy); }

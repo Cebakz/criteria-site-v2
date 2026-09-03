@@ -51,7 +51,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | off-diversificar.webp | offshore.html — além do Brasil (teleférico) | 1595368247588-ef2732572d8b |
 | off-quote.webp / off-cta.webp | offshore.html — citação / CTA (neve) | 1589878995301-0233a04c16dd / 1578309830739-6226cb317b22 |
 | hero-investimentos.webp | Hero investimentos.html (golfe) | 1696104470342-b1ed3afe8381 |
-| servicos-golfe.webp / inv-rendafixa.webp | investimentos.html — abordagem / renda fixa | 1633597468433-fdb200b73f62 / 1650465263750-e333c7bcd30c |
+| servicos-golfe.webp | investimentos.html — abordagem | 1633597468433-fdb200b73f62 |
 | band-golfe.webp / inv-quote.webp / inv-cta.webp | investimentos.html — faixa metodologia / citação / CTA | 1592937238247-cd0090e02f65 / 1701428181041-d5b4f1d66a87 / 1658101617638-b8653e27f7f2 |
 | hero-ib.webp / ib-intro.webp | Hero (saibro) e intro (grama) investment-banking.html | 1747647455910-6356d52f45da / 1719762888013-6ae1e96d0eb8 |
 | band-tenis.webp / ib-cta.webp | investment-banking.html — faixa (quadra dura) / CTA | 1516742720271-6ae39cbc5bd1 / 1548920168-70d61248a912 |
