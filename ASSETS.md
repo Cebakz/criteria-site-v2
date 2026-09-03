@@ -11,7 +11,7 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 720p, sem
 | video/hero-vela.mp4 (12 s) + img/hero-vela-poster.webp | Hero | https://www.pexels.com/video/852286/ |
 | video/numeros-torres.mp4 (10 s) + img/numeros-torres-poster.webp | Faixa de números | https://www.pexels.com/video/5941931/ |
 
-Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata**, **Offshore = neve/Alpes**. A home mistura todos os esportes.
+Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata**, **Offshore = neve/Alpes**, **Investimentos = golfe**, **Investment Banking = tênis**. A home mistura todos os esportes.
 
 ## Fotos (Unsplash) — `https://unsplash.com/photos/<id>`
 
@@ -49,9 +49,14 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | off-global / off-us / off-mfo | offshore.html — modelos (neve) | 1764343704388-ac5e7db539bd / 1551698618-1dfe5d97d256 / 1610803523148-a0052fa341bb |
 | off-diversificar.webp | offshore.html — além do Brasil (teleférico) | 1595368247588-ef2732572d8b |
 | off-quote.webp / off-cta.webp | offshore.html — citação / CTA (neve) | 1589878995301-0233a04c16dd / 1578309830739-6226cb317b22 |
+| hero-investimentos.webp | Hero investimentos.html (golfe) | 1696104470342-b1ed3afe8381 |
+| servicos-golfe.webp / inv-rendafixa.webp | investimentos.html — abordagem / renda fixa | 1633597468433-fdb200b73f62 / 1650465263750-e333c7bcd30c |
+| band-golfe.webp / inv-quote.webp / inv-cta.webp | investimentos.html — faixa metodologia / citação / CTA | 1592937238247-cd0090e02f65 / 1701428181041-d5b4f1d66a87 / 1658101617638-b8653e27f7f2 |
+| hero-ib.webp / ib-intro.webp | Hero e intro investment-banking.html (tênis) | 1747647455910-6356d52f45da / 1758314810669-346173121689 |
+| band-tenis.webp / ib-cta.webp | investment-banking.html — faixa / CTA | 1750858285407-069e874245d4 / 1548920168-70d61248a912 |
 | time-hero.webp | time.html — hero | 1571055177609-9c20e649f47e |
 | contato-hero.webp | contato.html — hero | 1561592390-ec0391c9c723 |
 
 ## Reaproveitados do site atual (`../img`, CDN oficial da Criteria)
 
-`midia-1..3.webp` (thumbs de mídia), `logo-criteria.svg`.
+`midia-1..3.webp` (thumbs de mídia), `logo-criteria.svg`, `ib/*.webp` (logos das transações de Investment Banking) e `exec/*.webp` (fotos dos executivos) — todos de `storage-ndt.nyc3.cdn.digitaloceanspaces.com/criteria-site/prod/`.
