@@ -38,7 +38,6 @@
   gsap.from('[data-hero]', { y: 24, opacity: 0, duration: 1.1, stagger: 0.12, ease: 'power3.out', delay: 0.9 });
   gsap.from('.hero__scroll', { opacity: 0, duration: 1, delay: 1.6 });
   gsap.to('.hero__media', { yPercent: 18, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
-  gsap.to('.hero__content', { y: 80, opacity: 0.2, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
 
   /* generic reveals */
   gsap.utils.toArray('.reveal').forEach(function (el) {
