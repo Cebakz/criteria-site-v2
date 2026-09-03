@@ -2,7 +2,7 @@
 
 Todas as fotos e vídeos são de bancos gratuitos com licença que permite uso comercial sem atribuição obrigatória
 (Unsplash License: https://unsplash.com/license · Pexels License: https://www.pexels.com/license/).
-Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 720p, sem áudio, CRF 30). Substituir por material próprio da marca é só trocar o arquivo mantendo o nome.
+Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 1080p, sem áudio, CRF 24). Substituir por material próprio da marca é só trocar o arquivo mantendo o nome.
 
 ## Vídeos (Pexels)
 
