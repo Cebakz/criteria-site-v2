@@ -40,8 +40,8 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | band-cavalgada.webp | Faixa Plano de Saúde — seguros.html (cavaleiros) | 1636682153300-ce3882953a7c |
 | band-regata.webp | Faixa Diferenciais — cambio.html | 1604099239293-d07cd36f00ac |
 | band-montanha.webp | Faixa Classes de Ativos — offshore.html (Alpes) | 1519931760384-a96fedd8dfa9 |
-| seg-vida.webp | seguros.html — Seguro de Vida | 1526038039141-92d734991065 |
-| seg-perfil-20.webp / -35 / -45 | seguros.html — perfis (hipismo) | 1604340597565-65b301ca8d8f / 1639370804113-c398aca25aee / 1757228727900-7758efc55404 |
+| seg-vida.webp | seguros.html — Seguro de Vida (salto) | 1511746687876-42cb762f6ac1 |
+| seg-perfil-20.webp / -35 / -45 | seguros.html — perfis (hipismo) | 1763130063577-6ebe42e7385c / 1639370804113-c398aca25aee / 1757228727900-7758efc55404 |
 | seg-concierge.webp | seguros.html — Concierge (cuidado com o cavalo) | 1607273225241-035d579b8452 |
 | seg-empresarial.webp / seg-pessoal.webp | seguros.html — corporativos (SP / sela) | 1561592390-42c07289e9cb / 1783137675922-716b3ac61885 |
 | cam-remessas / cam-papel / cam-analise / cam-estruturacao | cambio.html — serviços (vela) | 1636730740074-67ae6e3324de / 1659899954642-6e6e99fcf4e3 / 1631995037903-c4f8064c48ae / 1777880652014-feee433c6be0 |
