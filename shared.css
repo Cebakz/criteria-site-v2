@@ -107,7 +107,7 @@ section { position: relative; }
 .hero__overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(18,41,64,0.55) 0%, rgba(18,41,64,0.15) 40%, rgba(18,41,64,0.72) 100%); }
 .hero__content { position: relative; z-index: 2; width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 var(--pad) 120px; }
 .hero__label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(255,255,255,0.8); margin-bottom: 28px; }
-.hero__title { font-family: var(--display); font-weight: 600; font-size: clamp(3rem, 6.6vw, 6.4rem); line-height: 1; letter-spacing: -0.03em; color: #fff; max-width: 1100px; }
+.hero__title { font-family: var(--display); font-weight: 600; font-size: clamp(2.6rem, 5.4vw, 5rem); line-height: 1; letter-spacing: -0.03em; color: #fff; max-width: 1100px; }
 .hero__title em { font-style: normal; font-weight: 300; }
 .hero__title .line { display: block; overflow: hidden; padding-bottom: .08em; }
 .hero__title .line > span { display: inline-block; }
@@ -362,7 +362,6 @@ section { position: relative; }
 /* ---------- subpáginas (seguros / câmbio / offshore) ---------- */
 .hero--sub { height: 72vh; min-height: 560px; }
 .hero--sub .hero__content { padding-bottom: 96px; }
-.hero--sub .hero__title { font-size: clamp(2.6rem, 5.4vw, 5rem); }
 .hero__crumb { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.75); margin-bottom: 24px; }
 .hero__crumb a { color: #fff; text-decoration: none; }
 .hero__crumb span { margin: 0 10px; opacity: .45; }
