@@ -62,9 +62,11 @@
   /* counters */
   gsap.utils.toArray('[data-count]').forEach(function (el) {
     var end = parseFloat(el.getAttribute('data-count')), pre = el.getAttribute('data-prefix') || '', suf = el.getAttribute('data-suffix') || '';
+    var dec = parseInt(el.getAttribute('data-decimals') || '0', 10), sep = el.getAttribute('data-sep') || '';
+    var fmt = function (v) { var s = v.toFixed(dec); if (sep) { var p = s.split('.'); p[0] = p[0].replace(/\B(?=(\d{3})+(?!\d))/g, sep); s = p.join('.'); } return s; };
     var o = { v: 0 };
     ScrollTrigger.create({ trigger: el, start: 'top 88%', once: true, onEnter: function () {
-      gsap.to(o, { v: end, duration: 2.2, ease: 'power3.out', onUpdate: function () { el.textContent = pre + Math.round(o.v) + suf; } });
+      gsap.to(o, { v: end, duration: 2.2, ease: 'power3.out', onUpdate: function () { el.textContent = pre + fmt(o.v) + suf; } });
     } });
   });
 
