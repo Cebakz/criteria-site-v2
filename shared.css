@@ -280,7 +280,8 @@ section { position: relative; }
 .footer__brand img { height: 36px; width: auto; margin-bottom: 22px; }
 .footer__brand p { font-size: 0.86rem; line-height: 1.7; color: rgba(255,255,255,0.45); max-width: 300px; font-weight: 300; }
 .footer__social { display: flex; gap: 12px; margin-top: 26px; }
-.footer__social a { width: 40px; height: 40px; border: 1px solid var(--line-light); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.7rem; letter-spacing: .05em; transition: all .3s; }
+.footer__social a { width: 40px; height: 40px; border: 1px solid var(--line-light); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.7); text-decoration: none; transition: all .3s; }
+.footer__social svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; }
 .footer__social a:hover { border-color: #fff; color: #fff; }
 .footer__col h4 { font-size: 0.66rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 24px; }
 .footer__col ul { list-style: none; } .footer__col li { margin-bottom: 12px; }
