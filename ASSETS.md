@@ -31,7 +31,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | perfil-advisory.webp | Perfis · Advisory (golfe) | 1709525617656-5498eefc7d03 |
 | perfil-broker.webp | Perfis · Broker (regata) | 1602943554726-d8bebe914982 |
 | perfil-wealth.webp | Perfis · Wealth (polo) | 1784032348636-01f2c268e737 |
-| presenca-sp.webp | Presença | 1554168848-228452c09d60 |
+| presenca-sp.webp | Presença (Ponte Estaiada, Marginal Pinheiros, região da sede) | 1629984557791-110bca02b88b |
 | cta-vela.webp | CTA final (todas as páginas) | 1528580279421-f0b84f9d7640 |
 | hero-seguros.webp | Hero seguros.html (hipismo) | 1600715187853-47512f8b0717 |
 | hero-cambio.webp | Hero cambio.html (convés de veleiro) | 1545958140-244047d78f3a |
