@@ -6,6 +6,16 @@
 <title>Criteria Financial Group — Juntos, desenhando o futuro</title>
 <meta name="description" content="Soluções financeiras integradas com excelência, transparência e visão de longo prazo para preservação e crescimento patrimonial.">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://cebakz.github.io/criteria-site-v2/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Criteria Financial Group">
+<meta property="og:title" content="Criteria Financial Group — Juntos, desenhando o futuro">
+<meta property="og:description" content="Soluções financeiras integradas com excelência, transparência e visão de longo prazo para preservação e crescimento patrimonial.">
+<meta property="og:url" content="https://cebakz.github.io/criteria-site-v2/">
+<meta property="og:image" content="https://cebakz.github.io/criteria-site-v2/img/og.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FinancialService","name":"Criteria Financial Group","url":"https://cebakz.github.io/criteria-site-v2/","logo":"https://cebakz.github.io/criteria-site-v2/img/logo-criteria.svg","telephone":"+55 11 3124-9696","address":{"@type":"PostalAddress","streetAddress":"Av. Magalhães de Castro, 4800 — Torre 3","addressLocality":"São Paulo","addressRegion":"SP","postalCode":"05676-120","addressCountry":"BR"},"sameAs":["https://www.instagram.com/criteriainvestimentos","https://www.linkedin.com/company/criteria-financial-group/","https://youtube.com/@CriteriaInvestimentos","https://www.facebook.com/criteriafinancialgroup"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
@@ -14,23 +24,24 @@
 <body>
 
 <!-- NAV -->
-<nav class="nav" id="nav">
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<nav class="nav" id="nav" aria-label="Principal">
   <div class="nav__inner">
     <a href="#top" class="nav__logo"><img src="img/logo-criteria.svg" alt="Criteria Financial Group"></a>
     <ul class="nav__links">
       <li><a href="#about" class="nav__link">A Criteria</a></li>
       <li><a href="#services" class="nav__link">Atuação</a></li>
-      <li class="nav__link nav__link--dd"><span>Ecossistema</span>
+      <li class="nav__link--dd"><button type="button" class="nav__link nav__dd-btn" aria-haspopup="true" aria-expanded="false">Ecossistema</button>
         <div class="nav__dd">
-          <a href="investimentos.html">Investimentos</a><a href="seguros.html">Seguros</a><a href="#">Capital</a><a href="cambio.html">Câmbio</a>
-          <a href="offshore.html">Offshore</a><a href="investment-banking.html">Investment Banking</a><a href="#">Agro</a>
+          <a href="investimentos.html">Investimentos</a><a href="seguros.html">Seguros</a><a href="contato.html?assunto=Capital%20%2F%20Cr%C3%A9dito#form">Capital</a><a href="cambio.html">Câmbio</a>
+          <a href="offshore.html">Offshore</a><a href="investment-banking.html">Investment Banking</a><a href="contato.html?assunto=Agro#form">Agro</a>
         </div>
       </li>
       <li><a href="time.html" class="nav__link">Time</a></li>
       <li><a href="#insights" class="nav__link">Mídia</a></li>
     </ul>
     <a href="contato.html" class="nav__cta">Fale Conosco</a>
-    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button type="button" class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
   </div>
 </nav>
 <div class="mobile-menu" id="mobileMenu">
@@ -41,9 +52,10 @@
   <a href="#insights">Mídia</a>
   <a href="contato.html">Contato</a>
   <small>Ecossistema</small>
-  <div class="sub"><a href="investimentos.html">Investimentos</a><a href="seguros.html">Seguros</a><a href="cambio.html">Câmbio</a><a href="offshore.html">Offshore</a><a href="investment-banking.html">Investment Banking</a></div>
+  <div class="sub"><a href="investimentos.html">Investimentos</a><a href="contato.html?assunto=Private#form">Private</a><a href="seguros.html">Seguros</a><a href="investment-banking.html">Investment Banking</a><a href="offshore.html">Offshore</a><a href="cambio.html">Câmbio</a><a href="contato.html?assunto=Capital%20%2F%20Cr%C3%A9dito#form">Capital</a><a href="contato.html?assunto=Agro#form">Agro</a></div>
 </div>
 
+<main id="conteudo">
 <!-- HERO -->
 <section class="hero" id="top">
   <div class="hero__media">
@@ -94,7 +106,7 @@
     <div class="about__grid">
       <div class="about__media">
         <div class="about__year reveal">1989</div>
-        <div class="media img-reveal about__main"><img src="img/historia-golfe.webp" alt="Partida de polo" loading="lazy"></div>
+        <div class="media img-reveal about__main"><img src="img/historia-golfe.webp" alt="Golfista ao entardecer" loading="lazy"></div>
       </div>
       <div class="about__body reveal">
         <h3>Com uma veia empreendedora e raízes sólidas desde 1989</h3>
@@ -160,17 +172,17 @@
         <div class="label label--light reveal">Onde Atuamos</div>
         <h2 class="h2 h2--light reveal">Atuação 360° em <em>todo o mercado</em></h2>
       </div>
-      <p class="lead lead--light reveal" style="margin-top:0;max-width:380px;">Oito frentes integradas, um único relacionamento. Passe o cursor para conhecer cada vertical.</p>
+      <p class="lead lead--light reveal" style="margin-top:0;max-width:380px;">Oito frentes integradas, um único relacionamento. Conheça cada vertical.</p>
     </div>
     <div class="services__grid">
       <a href="investimentos.html" class="svc reveal"><img src="img/card-investimentos.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">01</div><div class="svc__title">Investimentos</div><div class="svc__desc">Assessoria personalizada com foco em rentabilização e preservação patrimonial.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
-      <a href="#" class="svc reveal"><img src="img/card-private.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">02</div><div class="svc__title">Private</div><div class="svc__desc">Gestão de patrimônio exclusiva com planejamento sucessório, fiscal e alocação global.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
+      <a href="contato.html?assunto=Private#form" class="svc reveal"><img src="img/card-private.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">02</div><div class="svc__title">Private</div><div class="svc__desc">Gestão de patrimônio exclusiva com planejamento sucessório, fiscal e alocação global.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
       <a href="seguros.html" class="svc reveal"><img src="img/card-seguros.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">03</div><div class="svc__title">Seguros</div><div class="svc__desc">Soluções completas em seguros com R$ 7 bilhões em capital segurado.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
       <a href="investment-banking.html" class="svc reveal"><img src="img/card-ib.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">04</div><div class="svc__title">Investment Banking</div><div class="svc__desc">Assessoria em fusões, aquisições, estruturação de capital e operações de M&A.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
       <a href="offshore.html" class="svc reveal"><img src="img/card-offshore.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">05</div><div class="svc__title">Offshore</div><div class="svc__desc">Estruturação e gestão de investimentos internacionais com visão global.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
       <a href="cambio.html" class="svc reveal"><img src="img/card-cambio.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">06</div><div class="svc__title">Câmbio</div><div class="svc__desc">Operações de câmbio com taxas competitivas e agilidade no atendimento.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
-      <a href="#" class="svc reveal"><img src="img/card-capital.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">07</div><div class="svc__title">Capital</div><div class="svc__desc">Soluções de crédito estruturado com mais de R$ 450 milhões em operações.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
-      <a href="#" class="svc reveal"><img src="img/card-agro.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">08</div><div class="svc__title">Agro</div><div class="svc__desc">Soluções financeiras especializadas para o agronegócio brasileiro.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
+      <a href="contato.html?assunto=Capital%20%2F%20Cr%C3%A9dito#form" class="svc reveal"><img src="img/card-capital.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">07</div><div class="svc__title">Capital</div><div class="svc__desc">Soluções de crédito estruturado com mais de R$ 450 milhões em operações.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
+      <a href="contato.html?assunto=Agro#form" class="svc reveal"><img src="img/card-agro.webp" alt="" loading="lazy"><div class="svc__body"><div class="svc__num">08</div><div class="svc__title">Agro</div><div class="svc__desc">Soluções financeiras especializadas para o agronegócio brasileiro.</div><span class="link svc__more">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></span></div></a>
     </div>
   </div>
 </section>
@@ -198,7 +210,7 @@
           <div class="os__item"><i></i>Concierge e Consultoria em Serviços Gerais</div>
         </div>
       </div>
-      <div class="media img-reveal os__media"><img src="img/servicos-vela.webp" alt="Quadra de saibro" loading="lazy"></div>
+      <div class="media img-reveal os__media"><img src="img/servicos-vela.webp" alt="Veleiro em mar aberto" loading="lazy"></div>
     </div>
   </div>
 </section>
@@ -233,12 +245,12 @@
     <p class="lead reveal">Nosso modelo coloca o cliente no centro de uma estrutura integrada, conectando seis frentes em uma experiência unificada. <strong style="font-weight:600;color:var(--navy)">"Acesso global, serviço local."</strong></p>
     <div class="vtabs reveal">
       <div class="vtabs__list" role="tablist">
-        <button class="vtab active" role="tab" data-tab="pb"><small>Relacionamento</small><span>Private Banking</span></button>
-        <button class="vtab" role="tab" data-tab="aa"><small>Investimentos</small><span>Asset Allocation</span></button>
-        <button class="vtab" role="tab" data-tab="wa"><small>Patrimônio</small><span>Wealth Advisory</span></button>
-        <button class="vtab" role="tab" data-tab="pf"><small>Planejamento</small><span>Planejamento Financeiro</span></button>
-        <button class="vtab" role="tab" data-tab="ep"><small>Produtos</small><span>Especialista de Produtos</span></button>
-        <button class="vtab" role="tab" data-tab="cm"><small>Estruturação</small><span>Crédito &amp; M&amp;A</span></button>
+        <button type="button" class="vtab active" role="tab" data-tab="pb"><small>Relacionamento</small><span>Private Banking</span></button>
+        <button type="button" class="vtab" role="tab" data-tab="aa"><small>Investimentos</small><span>Asset Allocation</span></button>
+        <button type="button" class="vtab" role="tab" data-tab="wa"><small>Patrimônio</small><span>Wealth Advisory</span></button>
+        <button type="button" class="vtab" role="tab" data-tab="pf"><small>Planejamento</small><span>Planejamento Financeiro</span></button>
+        <button type="button" class="vtab" role="tab" data-tab="ep"><small>Produtos</small><span>Especialista de Produtos</span></button>
+        <button type="button" class="vtab" role="tab" data-tab="cm"><small>Estruturação</small><span>Crédito &amp; M&amp;A</span></button>
       </div>
       <div class="vpanels">
         <div class="vpanel active" id="vpanel-pb"><div class="vpanel__eyebrow">Relacionamento</div><div class="vpanel__title">Private Banking</div><p>Abordagem empreendedora para fornecer <strong>consultoria imparcial</strong> com uma oferta holística de produtos, unindo Banking, Investimentos e Seguros em um único relacionamento.</p><p><strong>Um banker responsável pela sua relação com o grupo inteiro</strong>, com autonomia para acionar cada especialista no momento certo.</p></div>
@@ -259,9 +271,9 @@
     <div class="label label--light reveal">Perfis de Atendimento</div>
     <h2 class="h2 h2--light reveal">Encontre a solução ideal <em>para o seu perfil</em></h2>
     <div class="profiles__grid">
-      <div class="prof reveal"><img src="img/perfil-advisory.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Perfil Consultivo</div><div class="prof__title">Advisory</div><div class="prof__desc">O serviço Advisory consiste em alinhar estratégias e serviços financeiros com seus objetivos de vida. Prezando pela diversificação dos seus ativos, montamos em conjunto uma carteira saudável e resiliente para o longo prazo.</div><a href="#" class="link">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div>
-      <div class="prof reveal"><img src="img/perfil-broker.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Perfil Dinâmico</div><div class="prof__title">Broker</div><div class="prof__desc">O dinamismo do mercado requer um acompanhamento proativo dos produtos. É implícito um conhecimento mais profundo de mercado, para que cada cliente aproveite um atendimento ativo de novas ofertas, produtos exclusivos e trocas constantes nas carteiras, com o objetivo de trazer retornos acima do mercado.</div><a href="#" class="link">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div>
-      <div class="prof reveal"><img src="img/perfil-wealth.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Perfil Patrimonial</div><div class="prof__title">Wealth</div><div class="prof__desc">Gestão de patrimônio vai além do aspecto de liquidez dos nossos clientes. Trabalhamos no planejamento de caminhos eficientes na organização patrimonial de forma global e independente. Otimização fiscal tributária e sucessória, são apenas alguns dos pilares relevantes na perpetuação do patrimônio no longo prazo.</div><a href="#" class="link">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div>
+      <div class="prof reveal"><img src="img/perfil-advisory.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Perfil Consultivo</div><div class="prof__title">Advisory</div><div class="prof__desc">O serviço Advisory consiste em alinhar estratégias e serviços financeiros com seus objetivos de vida. Prezando pela diversificação dos seus ativos, montamos em conjunto uma carteira saudável e resiliente para o longo prazo.</div><a href="investimentos.html#perfis" class="link">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div>
+      <div class="prof reveal"><img src="img/perfil-broker.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Perfil Dinâmico</div><div class="prof__title">Broker</div><div class="prof__desc">O dinamismo do mercado requer um acompanhamento proativo dos produtos. É implícito um conhecimento mais profundo de mercado, para que cada cliente aproveite um atendimento ativo de novas ofertas, produtos exclusivos e trocas constantes nas carteiras, com o objetivo de trazer retornos acima do mercado.</div><a href="investimentos.html#perfis" class="link">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div>
+      <div class="prof reveal"><img src="img/perfil-wealth.webp" alt="" loading="lazy"><div class="prof__body"><div class="prof__tag">Perfil Patrimonial</div><div class="prof__title">Wealth</div><div class="prof__desc">Gestão de patrimônio vai além do aspecto de liquidez dos nossos clientes. Trabalhamos no planejamento de caminhos eficientes na organização patrimonial de forma global e independente. Otimização fiscal tributária e sucessória, são apenas alguns dos pilares relevantes na perpetuação do patrimônio no longo prazo.</div><a href="investimentos.html#perfis" class="link">Saiba mais <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div>
     </div>
   </div>
 </section>
@@ -374,9 +386,11 @@
     <div class="label label--light reveal" style="justify-content:center;">Fale Conosco</div>
     <h2 class="cta__title reveal">Pronto para desenhar o seu <em>futuro financeiro?</em></h2>
     <p class="cta__text reveal">Fale com nossos especialistas e descubra como podemos ajudar.</p>
-    <a href="https://criteriafg.com.br/contato" class="btn btn--solid reveal">Fale Conosco <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a>
+    <a href="contato.html" class="btn btn--solid reveal">Fale Conosco <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a>
   </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -392,10 +406,10 @@
           <a href="https://www.facebook.com/criteriafinancialgroup" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8.5V6.8c0-.9.4-1.3 1.3-1.3H17V2h-2.8C11.3 2 10 3.7 10 6.5v2H7.5V12H10v10h4V12h2.7l.5-3.5z"/></svg></a>
         </div>
       </div>
-      <div class="footer__col"><h4>Institucional</h4><ul><li><a href="#about">A Criteria</a></li><li><a href="time.html">Time</a></li><li><a href="contato.html#form">Carreiras</a></li><li><a href="#insights">Mídia</a></li></ul></div>
-      <div class="footer__col"><h4>Grupo</h4><ul><li><a href="investimentos.html">Investimentos</a></li><li><a href="seguros.html">Seguros</a></li><li><a href="#">Capital</a></li><li><a href="cambio.html">Câmbio</a></li><li><a href="offshore.html">Offshore</a></li><li><a href="investment-banking.html">Investment Banking</a></li><li><a href="#">Agro</a></li></ul></div>
-      <div class="footer__col"><h4>Legal</h4><ul><li><a href="#">Termos de Uso</a></li><li><a href="#">Política de Privacidade</a></li><li><a href="#">Acessibilidade</a></li></ul></div>
-      <div class="footer__col"><h4><a href="contato.html" style="color:inherit;text-decoration:none">Contato</a></h4><div class="footer__contact"><b>(11) 3124-9696</b>Av. Magalhães de Castro, 4800<br>Torre 3 — Jardim Panorama<br>São Paulo — SP, 05676-120</div></div>
+      <div class="footer__col"><div class="footer__h">Institucional</div><ul><li><a href="#about">A Criteria</a></li><li><a href="time.html">Time</a></li><li><a href="contato.html#form">Carreiras</a></li><li><a href="#insights">Mídia</a></li></ul></div>
+      <div class="footer__col"><div class="footer__h">Grupo</div><ul><li><a href="investimentos.html">Investimentos</a></li><li><a href="seguros.html">Seguros</a></li><li><a href="contato.html?assunto=Capital%20%2F%20Cr%C3%A9dito#form">Capital</a></li><li><a href="cambio.html">Câmbio</a></li><li><a href="offshore.html">Offshore</a></li><li><a href="investment-banking.html">Investment Banking</a></li><li><a href="contato.html?assunto=Agro#form">Agro</a></li></ul></div>
+      <div class="footer__col"><div class="footer__h">Legal</div><ul><li><a href="https://criteriafg.com.br/politica_privacidade/" target="_blank" rel="noopener">Política de Privacidade</a></li><li><a href="https://www.gov.br/cvm/" target="_blank" rel="noopener">CVM</a></li><li><a href="https://www.ancord.org.br/" target="_blank" rel="noopener">Ancord</a></li></ul></div>
+      <div class="footer__col"><div class="footer__h"><a href="contato.html" style="color:inherit;text-decoration:none">Contato</a></div><div class="footer__contact"><b>(11) 3124-9696</b>Av. Magalhães de Castro, 4800<br>Torre 3 — Jardim Panorama<br>São Paulo — SP, 05676-120</div></div>
     </div>
     <div class="footer__bottom">
       <div class="footer__legal">A Criteria Invest Assessor de Investimento Ltda é uma assessoria de investimento devidamente registrada na Comissão de Valores Mobiliários na forma da Resolução 178 de 2023. Credenciada à XP Investimentos CCTVM S/A. Na forma da legislação CVM, a assessoria de investimento não pode administrar ou gerir o patrimônio do investidor. O investimento em ações é um investimento de risco e rentabilidade passada não é garantia de rentabilidade futura. Criteria Services Serviços Administrativos LTDA está credenciado como Correspondente Cambial do Banco BS2 S.A. SAC (BS2): 0800 545 5252. Ouvidoria (BS2): 0800 726 8889.</div>
