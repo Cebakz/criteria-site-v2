@@ -720,3 +720,33 @@ section { position: relative; }
   .hero, .hero--sub { height: auto; min-height: 100svh; min-height: 100dvh; }
   .hero--sub { min-height: 86svh; min-height: 86dvh; }
 }
+
+/* ---------- home · Atuação 360°: tratamento fotográfico uniforme (campanha) ---------- */
+#services .svc { --g: .35; --s: .72; --b: .58; --c: .96; --pos: 50% 50%; --hg: .12; --hs: .80; --hb: .70; --hc: .98; }
+#services .svc img { object-position: var(--pos); filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
+#services .svc::before { content: ''; position: absolute; inset: 0; background: rgba(18,41,64,.34); mix-blend-mode: multiply; z-index: 1; pointer-events: none; transition: opacity .8s var(--ease); }
+#services .svc::after { z-index: 1; background: linear-gradient(180deg, rgba(18,41,64,.05) 0%, rgba(18,41,64,.18) 40%, rgba(18,41,64,.9) 100%); }
+#services .svc:hover img { filter: grayscale(var(--hg)) saturate(var(--hs)) brightness(var(--hb)) contrast(var(--hc)); }
+#services .svc:hover::before { opacity: .7; }
+/* 01 Investimentos · golfe: mais presença, verde contido */
+#services .svc:nth-child(1) { --b: .66; --s: .68; --c: 1.0; --hb: .78; --hs: .74; --pos: 50% 45%; }
+/* 02 Private · polo: muito saturado e movimentado */
+#services .svc:nth-child(2) { --g: .55; --s: .42; --b: .56; --c: .94; --hg: .3; --hs: .55; --hb: .66; --pos: 55% 40%; }
+/* 03 Seguros · hipismo: neutraliza a faixa vermelha */
+#services .svc:nth-child(3) { --g: .55; --s: .45; --b: .58; --c: .95; --hg: .3; --hs: .58; --hb: .68; --pos: 60% 35%; }
+/* 04 Investment Banking · tênis: já na paleta navy */
+#services .svc:nth-child(4) { --s: .78; --b: .60; --hs: .86; --hb: .72; --pos: 50% 40%; }
+/* 05 Offshore · Alpes: segura brancos e ciano */
+#services .svc:nth-child(5) { --g: .4; --s: .55; --b: .44; --c: 1.02; --hg: .18; --hs: .62; --hb: .54; --hc: 1.02; --pos: 50% 50%; }
+/* 06 Câmbio · vela: referência da paleta */
+#services .svc:nth-child(6) { --s: .74; --b: .60; --hs: .82; --hb: .72; --pos: 50% 55%; }
+/* 07 Capital · remo: foto escura, clareia sem lavar */
+#services .svc:nth-child(7) { --g: .3; --s: .70; --b: 1.0; --c: .92; --hg: .1; --hs: .78; --hb: 1.1; --hc: .94; --pos: 50% 50%; }
+/* 08 Agro · vinhedo: amarelo e verde muito intensos */
+#services .svc:nth-child(8) { --g: .6; --s: .36; --b: .56; --c: .96; --hg: .35; --hs: .46; --hb: .66; --pos: 50% 50%; }
+@media (max-width: 768px) {
+  #services .svc img { filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
+  #services .svc:nth-child(2) { --pos: 60% 40%; }
+  #services .svc:nth-child(3) { --pos: 65% 35%; }
+  #services .svc:nth-child(7) { --pos: 50% 45%; }
+}
