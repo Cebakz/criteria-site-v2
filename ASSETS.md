@@ -31,7 +31,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | perfil-advisory.webp | Perfis · Advisory (golfe) | 1709525617656-5498eefc7d03 |
 | perfil-broker.webp | Perfis · Broker (regata) | 1602943554726-d8bebe914982 |
 | perfil-wealth.webp | Perfis · Wealth (polo) | 1784032348636-01f2c268e737 |
-| presenca-sp.webp | Presença (Ponte Estaiada, Marginal Pinheiros, região da sede) | 1629984557791-110bca02b88b |
+| presenca-sp.webp | Presença — ver seção Wikimedia Commons abaixo | — |
 | cta-vela.webp | CTA final (todas as páginas) | 1528580279421-f0b84f9d7640 |
 | hero-seguros.webp | Hero seguros.html (hipismo) | 1600715187853-47512f8b0717 |
 | hero-cambio.webp | Hero cambio.html (convés de veleiro) | 1545958140-244047d78f3a |
@@ -56,8 +56,12 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | hero-ib.webp / ib-intro.webp | Hero (saibro) e intro (grama) investment-banking.html | 1747647455910-6356d52f45da / 1719762888013-6ae1e96d0eb8 |
 | band-tenis.webp / ib-cta.webp | investment-banking.html — faixa (quadra dura) / CTA | 1516742720271-6ae39cbc5bd1 / 1548920168-70d61248a912 |
 | time-hero.webp | time.html — hero | 1571055177609-9c20e649f47e |
-| contato-hero.webp | contato.html — hero | 1561592390-ec0391c9c723 |
+| contato-hero.webp | contato.html — hero — ver seção Wikimedia Commons abaixo | — |
 
 ## Reaproveitados do site atual (`../img`, CDN oficial da Criteria)
 
 `midia-1..3.webp` (thumbs de mídia), `logo-criteria.svg`, `ib/*.webp` (logos das transações de Investment Banking) e `exec/*.webp` (fotos dos executivos) — todos de `storage-ndt.nyc3.cdn.digitaloceanspaces.com/criteria-site/prod/`.
+
+## Wikimedia Commons (CC BY-SA 3.0 — crédito obrigatório, exibido na página)
+
+`presenca-sp.webp` e `contato-hero.webp`: "CIDADE JARDIM CORPORATE CENTER - Av. Magalhães de Castro - vista da Estação Berrini da CPTM", foto de CORRETOR-CARVALHO (Panoramio, 2012), CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:CIDADE_JARDIM_CORPORATE_CENTER_-_Av._Magalh%C3%A3es_de_Castro_-_vista_da_Esta%C3%A7%C3%A3o_Berrini_da_CPTM_-_panoramio.jpg — recorte e leve ajuste de cor (saturação 0,82, contraste 1,06). Ao substituir por foto própria, remover o crédito `.credit` nas duas páginas.
