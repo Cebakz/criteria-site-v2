@@ -72,7 +72,7 @@
 <section class="numbers numbers--flat">
   <div class="wrap">
     <div class="numbers__grid numbers__grid--3">
-      <div class="num reveal"><div class="num__v">130</div><div class="num__l">Assessores credenciados</div></div>
+      <div class="num reveal"><div class="num__v">+100</div><div class="num__l">Assessores credenciados</div></div>
       <div class="num reveal"><div class="num__v">11</div><div class="num__l">Filiais no Brasil</div></div>
       <div class="num reveal"><div class="num__v">CVM 178</div><div class="num__l">Registro e conformidade</div></div>
     </div>
@@ -110,7 +110,7 @@
     <div class="dir">
       <aside class="dir__side reveal">
         <div class="busca"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="busca" type="search" placeholder="Buscar pelo nome…" aria-label="Buscar assessor pelo nome" autocomplete="off"></div>
-        <div class="busca__count" id="contador">130 assessores</div>
+        <div class="busca__count" id="contador">+100 assessores</div>
         <nav class="az" aria-label="Índice alfabético"><a href="#letra-A">A</a><a href="#letra-B">B</a><a href="#letra-C">C</a><a href="#letra-D">D</a><a href="#letra-E">E</a><a href="#letra-F">F</a><a href="#letra-G">G</a><a href="#letra-H">H</a><a href="#letra-I">I</a><a href="#letra-J">J</a><a href="#letra-K" class="is-off">K</a><a href="#letra-L">L</a><a href="#letra-M">M</a><a href="#letra-N">N</a><a href="#letra-O" class="is-off">O</a><a href="#letra-P">P</a><a href="#letra-Q" class="is-off">Q</a><a href="#letra-R">R</a><a href="#letra-S" class="is-off">S</a><a href="#letra-T">T</a><a href="#letra-U" class="is-off">U</a><a href="#letra-V">V</a><a href="#letra-W" class="is-off">W</a><a href="#letra-X" class="is-off">X</a><a href="#letra-Y">Y</a><a href="#letra-Z" class="is-off">Z</a></nav>
       </aside>
       <div class="dir__list">
@@ -164,7 +164,7 @@
     advs.forEach(function (li) { var m = !q || norm(li.querySelector('.adv__nome').textContent).indexOf(q) !== -1; li.style.display = m ? '' : 'none'; if (m) { vis++; hit[li.closest('.grupo').id] = 1; } });
     grupos.forEach(function (g) { g.style.display = hit[g.id] ? '' : 'none'; });
     az.forEach(function (a) { a.classList.toggle('is-off', !hit[a.getAttribute('href').slice(1)]); });
-    contador.textContent = q ? vis + ' de ' + total + ' assessores' : total + ' assessores';
+    contador.textContent = q ? vis + ' assessor' + (vis === 1 ? '' : 'es') + ' encontrado' + (vis === 1 ? '' : 's') : '+100 assessores';
     vazio.hidden = vis !== 0;
     if (window.ScrollTrigger) ScrollTrigger.refresh();
   }
