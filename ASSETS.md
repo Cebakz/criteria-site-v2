@@ -20,8 +20,8 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | historia-golfe.webp | Nossa História (golfista ao entardecer) | 1752661497402-5b3b6743d66a |
 | card-investimentos.webp | Onde Atuamos · Investimentos (golfe) | 1763917379121-91130139aca0 |
 | card-private.webp | Onde Atuamos · Private (polo) | 1605999353377-37c775c79889 |
-| card-seguros.webp | Onde Atuamos · Seguros (hipismo) | 1600715187853-47512f8b0717 |
-| card-ib.webp | Onde Atuamos · Investment Banking (tênis) | 1714840961579-6b072a12536e |
+| card-seguros.webp | Onde Atuamos · Seguros (cavaleiro em campo aberto) | 1760820009100-647763fceaa6 |
+| card-ib.webp | Onde Atuamos · Investment Banking (quadra de tênis vista de cima) | 1620742820748-87c09249a72a |
 | card-offshore.webp | Onde Atuamos · Offshore (Alpes) | 1700142572634-150b3857e71d |
 | card-cambio.webp | Onde Atuamos · Câmbio (veleiro) | 1717054373388-b405bfd27707 |
 | card-capital.webp | Onde Atuamos · Capital (remo) | 1697242877038-6213aa0822d9 |

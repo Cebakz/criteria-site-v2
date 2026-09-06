@@ -323,7 +323,7 @@ section { position: relative; }
 }
 @media (max-width: 768px) {
   :root { --pad: 22px; }
-  .section { padding: 80px 0; }
+  .section { padding: 64px 0; }
   .nav__links, .nav__cta { display: none; }
   .nav__burger { display: block; }
   .hero, .hero--sub { height: auto; min-height: 100svh; min-height: 100dvh; align-items: flex-end; }
@@ -334,7 +334,7 @@ section { position: relative; }
   .hero__row { flex-direction: column; align-items: flex-start; gap: 28px; }
   .hero__ctas { flex-direction: column; width: 100%; } .hero__ctas .btn { justify-content: center; }
   .hero__scroll { display: none; }
-  .numbers { padding: 110px 0; }
+  .numbers { padding: 80px 0; }
   .numbers__grid { grid-template-columns: repeat(2, 1fr); }
   .num { border-left: 0; } .num:nth-child(2n) { border-left: 1px solid var(--line-light); }
   .about__second { display: none; }
@@ -722,7 +722,7 @@ section { position: relative; }
 }
 
 /* ---------- home · Atuação 360°: tratamento fotográfico uniforme (campanha) ---------- */
-#services .svc { --g: .35; --s: .72; --b: .64; --c: .96; --pos: 50% 50%; --hg: .12; --hs: .80; --hb: .76; --hc: .98; }
+#services .svc { --g: .35; --s: .72; --b: .66; --c: .96; --pos: 50% 50%; --hg: .12; --hs: .80; --hb: .78; --hc: .98; }
 #services .svc img { object-position: var(--pos); filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
 #services .svc::before { content: ''; position: absolute; inset: 0; background: rgba(18,41,64,.30); mix-blend-mode: multiply; z-index: 1; pointer-events: none; transition: opacity .8s var(--ease); }
 #services .svc::after { z-index: 1; background: linear-gradient(180deg, rgba(18,41,64,.05) 0%, rgba(18,41,64,.18) 40%, rgba(18,41,64,.9) 100%); }
@@ -730,24 +730,24 @@ section { position: relative; }
 #services .svc:hover::before { opacity: .7; }
 /* ajustes por área (identificados por data-service, não por posição) */
 #services .svc[data-service="investimentos"] { --b: .72; --s: .68; --c: 1.0; --hb: .84; --hs: .74; --pos: 50% 45%; }   /* golfe: presença, verde contido */
-#services .svc[data-service="seguros"]       { --g: .55; --s: .45; --b: .64; --c: .95; --hg: .3; --hs: .58; --hb: .74; --pos: 60% 35%; }  /* hipismo: neutraliza faixa vermelha */
-#services .svc[data-service="ib"]            { --s: .78; --b: .66; --hs: .86; --hb: .78; --pos: 50% 40%; }               /* tênis: já na paleta navy */
+#services .svc[data-service="seguros"]       { --g: .45; --s: .55; --b: .66; --c: .96; --hg: .2; --hs: .66; --hb: .78; --pos: 50% 40%; }  /* hipismo: plano aberto */
+#services .svc[data-service="ib"]            { --g: .45; --s: .55; --b: .82; --c: .94; --hg: .2; --hs: .62; --hb: .92; --pos: 50% 50%; }               /* tênis: quadra vista de cima */
 #services .svc[data-service="offshore"]      { --g: .4; --s: .55; --b: .48; --c: 1.02; --hg: .18; --hs: .62; --hb: .58; --hc: 1.02; --pos: 50% 50%; } /* Alpes: brancos e ciano */
 #services .svc[data-service="cambio"]        { --s: .74; --b: .66; --hs: .82; --hb: .78; --pos: 50% 55%; }               /* vela: referência da paleta */
-#services .svc[data-service="private"]       { --g: .55; --s: .42; --b: .62; --c: .94; --hg: .3; --hs: .55; --hb: .72; --pos: 55% 40%; }  /* polo (oculto) */
-#services .svc[data-service="capital"]       { --g: .3; --s: .70; --b: 1.0; --c: .92; --hg: .1; --hs: .78; --hb: 1.1; --hc: .94; }        /* remo (oculto) */
-#services .svc[data-service="agro"]          { --g: .6; --s: .36; --b: .62; --c: .96; --hg: .35; --hs: .46; --hb: .72; }                    /* vinhedo (oculto) */
 @media (max-width: 768px) {
   #services .svc img { filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
-  #services .svc[data-service="seguros"] { --pos: 65% 35%; }
+  #services .svc[data-service="investimentos"] { --pos: 50% 40%; }
   /* o conteúdo define a altura do card; a foto fica de fundo */
   #services .svc { aspect-ratio: auto; min-height: 300px; display: flex; flex-direction: column; justify-content: flex-end; }
   #services .svc__body { position: relative; left: auto; right: auto; bottom: auto; padding: 150px 22px 26px; transform: none; }
   .hero__crumb { white-space: normal; overflow-wrap: anywhere; letter-spacing: .14em; font-size: .62rem; line-height: 1.8; max-width: 100%; }
   .hero__crumb span { margin: 0 6px; }
 }
+@media (max-width: 480px) {
+  .hero__crumb-mid { display: none; }
+}
 @media (max-width: 360px) { #services .svc__body { padding: 130px 18px 22px; } }
 #services .services__grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
 #services .svc { flex: 0 0 calc((100% - 32px) / 3); }
 @media (max-width: 1100px) { #services .svc { flex-basis: calc((100% - 16px) / 2); } }
-@media (max-width: 768px) { #services .svc { flex-basis: 100%; } }
+@media (max-width: 640px) { #services .svc { flex-basis: 100%; } }
