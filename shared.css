@@ -723,21 +723,21 @@ section { position: relative; }
 }
 
 /* ---------- home · Atuação 360°: tratamento fotográfico uniforme (campanha) ---------- */
-#services .svc { --g: .35; --s: .72; --b: .66; --c: .96; --pos: 50% 50%; --hg: .12; --hs: .80; --hb: .78; --hc: .98; }
+#services .svc { --g: .35; --s: .72; --b: .66; --c: .96; --pos: 50% 50%; --hg: .08; --hs: .90; --hb: .92; --hc: .98; }
 #services .svc img { object-position: var(--pos); filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
 #services .svc::before { content: ''; position: absolute; inset: 0; background: rgba(18,41,64,.30); mix-blend-mode: multiply; z-index: 1; pointer-events: none; transition: opacity .8s var(--ease); }
 #services .svc::after { z-index: 1; background: linear-gradient(180deg, rgba(18,41,64,.05) 0%, rgba(18,41,64,.18) 40%, rgba(18,41,64,.9) 100%); }
 #services .svc:hover img { filter: grayscale(var(--hg)) saturate(var(--hs)) brightness(var(--hb)) contrast(var(--hc)); }
-#services .svc:hover::before { opacity: .7; }
+#services .svc:hover::before { opacity: .32; }
 /* ajustes por área (identificados por data-service, não por posição) */
-#services .svc[data-service="investimentos"] { --b: .72; --s: .68; --c: 1.0; --hb: .84; --hs: .74; --pos: 50% 45%; }   /* golfe: presença, verde contido */
-#services .svc[data-service="wealth"]        { --g: .42; --s: .58; --b: .60; --c: .98; --hg: .16; --hs: .70; --hb: .74; --pos: 50% 45%; }  /* polo: campo aberto, verde contido */
-#services .svc[data-service="seguros"]      { --g: .38; --s: .62; --b: .62; --c: .98; --hg: .14; --hs: .78; --hb: .76; --pos: 50% 45%; }  /* escalada: rocha seca, detalhe visivel */
-#services .svc[data-service="ib"]            { --g: .45; --s: .55; --b: .82; --c: .94; --hg: .2; --hs: .62; --hb: .92; --pos: 50% 50%; }               /* tênis: quadra vista de cima */
-#services .svc[data-service="offshore"]      { --g: .4; --s: .55; --b: .48; --c: 1.02; --hg: .18; --hs: .62; --hb: .58; --hc: 1.02; --pos: 50% 50%; } /* Alpes: brancos e ciano */
-#services .svc[data-service="cambio"]        { --g: .34; --s: .60; --b: .58; --c: 1.0; --hg: .12; --hs: .74; --hb: .72; --pos: 50% 50%; }  /* F1: circuito visto de cima */
-#services .svc[data-service="asset"]         { --g: .30; --s: .70; --b: .78; --c: 1.0; --hg: .10; --hs: .86; --hb: .92; --pos: 50% 50%; }  /* remo: agua escura, ja na paleta */
-#services .svc[data-service="agro"]          { --g: .40; --s: .58; --b: .64; --c: .98; --hg: .14; --hs: .74; --hb: .78; --pos: 50% 50%; }  /* lavoura: colheita vista de cima */
+#services .svc[data-service="investimentos"] { --b: .72; --s: .68; --c: 1.0; --hg: .06; --hs: .86; --hb: .98; --pos: 50% 45%; }   /* golfe: presença, verde contido */
+#services .svc[data-service="wealth"]        { --g: .42; --s: .58; --b: .60; --c: .98; --hg: .10; --hs: .84; --hb: .90; --pos: 50% 45%; }  /* polo: campo aberto, verde contido */
+#services .svc[data-service="seguros"]      { --g: .38; --s: .62; --b: .62; --c: .98; --hg: .08; --hs: .90; --hb: .92; --pos: 50% 45%; }  /* escalada: rocha seca, detalhe visivel */
+#services .svc[data-service="ib"]            { --g: .45; --s: .55; --b: .82; --c: .94; --hg: .12; --hs: .76; --hb: 1.04; --pos: 50% 50%; }               /* tênis: quadra vista de cima */
+#services .svc[data-service="offshore"]      { --g: .4; --s: .55; --b: .48; --c: 1.02; --hg: .10; --hs: .76; --hb: .76; --hc: 1.02; --pos: 50% 50%; } /* Alpes: brancos e ciano */
+#services .svc[data-service="cambio"]        { --g: .34; --s: .60; --b: .58; --c: 1.0; --hg: .06; --hs: .88; --hb: .88; --pos: 50% 50%; }  /* F1: circuito visto de cima */
+#services .svc[data-service="asset"]         { --g: .30; --s: .70; --b: .78; --c: 1.0; --hg: .04; --hs: .96; --hb: 1.04; --pos: 50% 50%; }  /* remo: agua escura, ja na paleta */
+#services .svc[data-service="agro"]          { --g: .40; --s: .58; --b: .64; --c: .98; --hg: .08; --hs: .88; --hb: .94; --pos: 50% 50%; }  /* lavoura: colheita vista de cima */
 @media (max-width: 768px) {
   #services .svc img { filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
   #services .svc[data-service="investimentos"] { --pos: 50% 40%; }
