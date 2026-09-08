@@ -11,7 +11,7 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 1080p, se
 | video/hero-vela.mp4 (12 s) + img/hero-vela-poster.webp | Hero | https://www.pexels.com/video/852286/ |
 | video/numeros-torres.mp4 (10 s) + img/numeros-torres-poster.webp | Faixa de números | https://www.pexels.com/video/5941931/ |
 
-Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = Fórmula 1**, **Offshore = neve/Alpes**, **Investimentos = golfe**, **Investment Banking = tênis**, **Wealth = polo**. A home mistura todos os esportes.
+Tema visual por ecossistema: **Seguros = escalada em dupla**, **Câmbio = Fórmula 1**, **Offshore = neve/Alpes**, **Investimentos = golfe**, **Investment Banking = tênis**, **Wealth = polo**. A home mistura todos os esportes.
 
 ## Fotos (Unsplash) — `https://unsplash.com/photos/<id>`
 
@@ -74,7 +74,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = Fórmula 1*
 
 | arquivo | uso | Unsplash id |
 |---|---|---|
-| hero-cambio.webp | Hero cambio.html — carro em movimento | 1699138346782-8a8b211c3da2 |
+| hero-cambio.webp | Hero cambio.html — curva vista de cima | 1681582798464-0c67012b7a13 |
 | card-cambio.webp | Onde Atuamos · Câmbio — carro na zebra | 1781869290653-2cdda6bb097b |
 | band-f1.webp | cambio.html — faixa (curva e zebra) | 1623255405531-f605a7a39e4c |
 | cam-cta.webp | cambio.html — CTA (circuito ao entardecer) | 1777362039145-efdcd02eb988 |
@@ -85,3 +85,38 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = Fórmula 1*
 | cam-estruturacao.webp | estruturacao (reta dos boxes) | 1686043685697-cb1659217418 |
 
 `band-regata.webp` continua em uso em time.html.
+
+### Seguros — escalada em dupla (substituiu o tema de hipismo em set/2026)
+
+Mensagem da direcao de arte: **voce tem apoio para avancar**. Toda foto mostra corda e
+equipamento de protecao. Nenhuma foto de escalada solo ou de pessoa em situacao extrema.
+Rocha seca, para nao se confundir com a neve de Offshore.
+
+| arquivo | uso | Unsplash id |
+|---|---|---|
+| hero-seguros.webp | Hero seguros.html — dupla na parede, cordas visiveis | 1625456824746-83a9a2638a8d |
+| card-seguros.webp | Onde Atuamos · Seguros — conferencia de equipamento | 1596057938795-f469b90d00a4 |
+| band-rocha.webp | seguros.html — faixa (corda passando na protecao) | 1516592673884-4a382d1124c2 |
+| band-rocha-2.webp | seguros.html — faixa (instrutor amarrando a corda) | 1703203201938-e956940fc5ed |
+| seg-vida.webp | seguros.html — vida (dois escaladores na mesma corda) | 1680565591360-59bce52d441e |
+| seg-pessoal.webp | seguros.html — pessoal (quem da seguranca, sentado) | 1681131185783-99267550ae1d |
+| seg-empresarial.webp | seguros.html — empresarial (dupla ligada pela corda) | 1660712837536-1e88bd7d1caf |
+| seg-concierge.webp | seguros.html — concierge (no na cadeirinha) | 1518837993197-f2f59dd4ba8e |
+| seg-perfil-20.webp | seguros.html — fase da vida | 1597698063932-9450882bb1be |
+| seg-perfil-35.webp | seguros.html — fase da vida | 1602531734042-c565f8365a0b |
+| seg-perfil-45.webp | seguros.html — fase da vida | 1583623010148-9c00f6b12efe |
+
+`band-cavalgada.webp` e `band-polo.webp` ficaram sem uso depois desta troca. Foram mantidos
+no repositorio caso o tema de hipismo volte.
+
+### Licenca e credito
+
+Todas as fotos das tabelas acima vem do Unsplash, sob a **Unsplash License**: uso comercial
+e nao comercial liberado, sem necessidade de permissao e **sem exigencia de credito**.
+A URL de origem de cada arquivo e `https://unsplash.com/photos/<id>`, com o id da coluna
+da direita. Nao e permitido revender as fotos sem alteracao nem montar um servico
+concorrente do Unsplash com elas; nenhum dos dois casos se aplica a este site.
+
+A unica excecao no projeto e a foto da sede (`contato-hero.webp` / `presenca-sp.webp`),
+que vem do Wikimedia Commons sob CC BY-SA 3.0 e **exige credito visivel**. Ver a secao
+do Wikimedia Commons acima.
