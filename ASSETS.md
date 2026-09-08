@@ -98,7 +98,7 @@ Rocha seca, para nao se confundir com a neve de Offshore.
 | card-seguros.webp | Onde Atuamos · Seguros — dupla na parede | 1680565591360-59bce52d441e |
 | band-rocha.webp | seguros.html — faixa (corda passando na protecao) | 1516592673884-4a382d1124c2 |
 | band-rocha-2.webp | seguros.html — faixa (instrutor amarrando a corda) | 1703203201938-e956940fc5ed |
-| seg-vida.webp | seguros.html — vida (conferencia do equipamento) | 1596057938795-f469b90d00a4 |
+| seg-vida.webp | seguros.html — vida e sucessao (quem segura a corda no chao) | 1548777921-f10a5d3839d9 |
 | seg-pessoal.webp | seguros.html — pessoal (quem da seguranca, sentado) | 1681131185783-99267550ae1d |
 | seg-empresarial.webp | seguros.html — empresarial (dupla ligada pela corda) | 1660712837536-1e88bd7d1caf |
 | seg-concierge.webp | seguros.html — concierge (no na cadeirinha) | 1518837993197-f2f59dd4ba8e |
@@ -106,7 +106,7 @@ Rocha seca, para nao se confundir com a neve de Offshore.
 | seg-perfil-35.webp | seguros.html — fase da vida | 1602531734042-c565f8365a0b |
 | seg-perfil-45.webp | seguros.html — fase da vida | 1583623010148-9c00f6b12efe |
 
-`band-cavalgada.webp` e `band-polo.webp` ficaram sem uso depois desta troca. Foram mantidos
+A foto 1596057938795 (conferencia de equipamento) saiu de uso. `band-cavalgada.webp` e `band-polo.webp` tambem ficaram sem uso depois desta troca. Foram mantidos
 no repositorio caso o tema de hipismo volte.
 
 ### Licenca e credito
