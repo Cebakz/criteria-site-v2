@@ -770,3 +770,9 @@ section { position: relative; }
 
 /* wealth — cards do ecossistema como links */
 #ecossistema .fcard .link { margin-top: 18px; }
+
+/* fcards com numero impar de itens: ultima linha centralizada */
+.fcards--center { display: flex; flex-wrap: wrap; justify-content: center; }
+.fcards--center .fcard { flex: 0 0 calc((100% - 80px) / 3); }
+@media (max-width: 900px) { .fcards--center .fcard { flex: 0 0 calc((100% - 40px) / 2); } }
+@media (max-width: 620px) { .fcards--center .fcard { flex: 0 0 100%; } }
