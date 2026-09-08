@@ -567,7 +567,7 @@ section { position: relative; }
 .fcard .checks { margin-top: 18px; }
 .vtabs { display: grid; grid-template-columns: 300px 1fr; gap: 40px; margin-top: 56px; align-items: stretch; }
 .vtabs__list { display: flex; flex-direction: column; gap: 6px; }
-.vtab { text-align: left; background: none; border: 0; border-left: 2px solid var(--line); padding: 18px 22px; cursor: pointer; font-family: var(--sans); transition: all .35s var(--ease); }
+.vtab { text-align: left; background: none; border: 0; border-left: 2px solid var(--line); padding: 14px 22px; cursor: pointer; font-family: var(--sans); transition: all .35s var(--ease); }
 .vtab small { display: block; font-size: 0.62rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 5px; }
 .vtab span { display: block; font-family: var(--display); font-weight: 600; font-size: 1.02rem; letter-spacing: -0.01em; color: var(--text-muted); line-height: 1.25; }
 .vtab:hover span, .vtab:hover small { color: var(--navy); }
@@ -774,3 +774,8 @@ section { position: relative; }
 #services .svc__ext { margin-left: 10px; font-size: .72em; opacity: .7; vertical-align: 2px; }
 /* titulo de todos os cards na mesma altura, independente do tamanho da descricao */
 @media (min-width: 769px) { #services .svc__desc { min-height: 4.8em; } }
+
+/* abas de estruturas de atendimento: link para a vertical */
+.vpanel__cta { display: inline-flex; align-items: center; gap: 8px; margin-top: 26px; }
+.vpanel__tags { margin-top: 26px; }
+.vpanel__cta { margin-top: 22px; }
