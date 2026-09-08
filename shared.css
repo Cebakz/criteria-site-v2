@@ -189,8 +189,8 @@ section { position: relative; }
 .os__stat-s { font-size: 0.85rem; line-height: 1.5; color: var(--text-body); margin-top: 10px; max-width: 260px; font-weight: 300; }
 .os__stat-src { font-size: 0.66rem; color: var(--text-muted); margin-top: 6px; font-style: italic; }
 .os__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
-.os__item { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 0.92rem; font-weight: 400; color: var(--text-dark); transition: padding-left .4s var(--ease); }
-.os__item:hover { padding-left: 8px; }
+.os__item { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 0.92rem; font-weight: 400; color: var(--text-dark); transition: transform .4s var(--ease); }
+.os__item:hover { transform: translateX(8px); }
 .os__item i { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
 .os__media { position: sticky; top: 110px; aspect-ratio: 4/5; }
 
