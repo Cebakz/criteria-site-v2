@@ -25,6 +25,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | card-offshore.webp | Onde Atuamos · Offshore (Alpes) | 1700142572634-150b3857e71d |
 | card-cambio.webp | Onde Atuamos · Câmbio (veleiro) | 1717054373388-b405bfd27707 |
 | card-capital.webp | Onde Atuamos · Capital (remo) | 1697242877038-6213aa0822d9 |
+| card-asset.webp | Onde Atuamos · Asset (remo) — copia de card-capital.webp | 1697242877038-6213aa0822d9 |
 | card-agro.webp | Onde Atuamos · Agro (vinhedo aéreo) | 1596695346787-be03f89b1cdd |
 | servicos-vela.webp | Nossos Serviços (veleiro) | 1540946485063-a40da27545f8 |
 | why-alpes.webp | Por que a Criteria (fundo) | 1489664729864-ee8499a4ddd5 |

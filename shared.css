@@ -735,7 +735,9 @@ section { position: relative; }
 #services .svc[data-service="seguros"]       { --g: .45; --s: .55; --b: .66; --c: .96; --hg: .2; --hs: .66; --hb: .78; --pos: 50% 40%; }  /* hipismo: plano aberto */
 #services .svc[data-service="ib"]            { --g: .45; --s: .55; --b: .82; --c: .94; --hg: .2; --hs: .62; --hb: .92; --pos: 50% 50%; }               /* tênis: quadra vista de cima */
 #services .svc[data-service="offshore"]      { --g: .4; --s: .55; --b: .48; --c: 1.02; --hg: .18; --hs: .62; --hb: .58; --hc: 1.02; --pos: 50% 50%; } /* Alpes: brancos e ciano */
-#services .svc[data-service="cambio"]        { --s: .74; --b: .66; --hs: .82; --hb: .78; --pos: 50% 55%; }               /* vela: referência da paleta */
+#services .svc[data-service="cambio"]        { --s: .74; --b: .66; --hs: .82; --hb: .78; --pos: 50% 55%; }
+#services .svc[data-service="asset"]         { --g: .30; --s: .70; --b: .78; --c: 1.0; --hg: .10; --hs: .86; --hb: .92; --pos: 50% 50%; }  /* remo: agua escura, ja na paleta */
+#services .svc[data-service="agro"]          { --g: .46; --s: .50; --b: .52; --c: .98; --hg: .18; --hs: .66; --hb: .70; --pos: 50% 45%; }  /* vinhedo: verde contido */               /* vela: referência da paleta */
 @media (max-width: 768px) {
   #services .svc img { filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
   #services .svc[data-service="investimentos"] { --pos: 50% 40%; }
@@ -757,16 +759,6 @@ section { position: relative; }
 /* ecossistema — empresas do grupo com site próprio */
 .nav__dd-sep { display: block; padding: 14px 26px 6px; margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.10); color: rgba(255,255,255,0.38); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; }
 .nav__dd a.nav__dd-ext span { margin-left: 8px; opacity: .55; font-size: .9em; }
-.ext { margin-top: 64px; padding-top: 44px; border-top: 1px solid rgba(255,255,255,0.14); }
-.ext__label { color: rgba(255,255,255,0.50); font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 24px; }
-.ext__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.ext__item { display: block; padding: 28px 30px; border: 1px solid rgba(255,255,255,0.16); text-decoration: none; color: #fff; transition: border-color .4s var(--ease), background-color .4s var(--ease), transform .4s var(--ease); }
-.ext__item:hover { border-color: rgba(255,255,255,0.42); background: rgba(255,255,255,0.05); transform: translateY(-3px); }
-.ext__name { font-size: 1.05rem; font-weight: 500; letter-spacing: -0.01em; }
-.ext__name span { margin-left: 10px; opacity: .6; font-size: .8em; }
-.ext__desc { margin-top: 8px; color: rgba(255,255,255,0.66); font-size: 0.9rem; line-height: 1.55; }
-.ext__url { display: inline-block; margin-top: 16px; color: rgba(255,255,255,0.45); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; }
-@media (max-width: 640px) { .ext__grid { grid-template-columns: 1fr; } .ext { margin-top: 44px; padding-top: 32px; } }
 
 /* wealth — cards do ecossistema como links */
 #ecossistema .fcard .link { margin-top: 18px; }
@@ -776,3 +768,8 @@ section { position: relative; }
 .fcards--center .fcard { flex: 0 0 calc((100% - 80px) / 3); }
 @media (max-width: 900px) { .fcards--center .fcard { flex: 0 0 calc((100% - 40px) / 2); } }
 @media (max-width: 620px) { .fcards--center .fcard { flex: 0 0 100%; } }
+
+/* cards que levam para site proprio */
+#services .svc__ext { margin-left: 10px; font-size: .72em; opacity: .7; vertical-align: 2px; }
+/* titulo de todos os cards na mesma altura, independente do tamanho da descricao */
+@media (min-width: 769px) { #services .svc__desc { min-height: 4.8em; } }
