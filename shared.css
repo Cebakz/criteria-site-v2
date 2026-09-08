@@ -752,7 +752,8 @@ section { position: relative; }
 }
 @media (max-width: 360px) { #services .svc__body { padding: 130px 18px 22px; } }
 #services .services__grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
-#services .svc { flex: 0 0 calc((100% - 32px) / 3); }
+#services .svc { flex: 0 0 calc((100% - 48px) / 4); }
+@media (max-width: 1240px) { #services .svc { flex-basis: calc((100% - 32px) / 3); } }
 @media (max-width: 1100px) { #services .svc { flex-basis: calc((100% - 16px) / 2); } }
 @media (max-width: 640px) { #services .svc { flex-basis: 100%; } }
 
