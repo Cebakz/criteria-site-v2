@@ -11,7 +11,7 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 1080p, se
 | video/hero-vela.mp4 (12 s) + img/hero-vela-poster.webp | Hero | https://www.pexels.com/video/852286/ |
 | video/numeros-torres.mp4 (10 s) + img/numeros-torres-poster.webp | Faixa de números | https://www.pexels.com/video/5941931/ |
 
-Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata**, **Offshore = neve/Alpes**, **Investimentos = golfe**, **Investment Banking = tênis**. A home mistura todos os esportes.
+Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata**, **Offshore = neve/Alpes**, **Investimentos = golfe**, **Investment Banking = tênis**, **Wealth = polo**. A home mistura todos os esportes.
 
 ## Fotos (Unsplash) — `https://unsplash.com/photos/<id>`
 
@@ -55,6 +55,9 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | band-golfe.webp / inv-quote.webp / inv-cta.webp | investimentos.html — faixa metodologia / citação / CTA | 1592937238247-cd0090e02f65 / 1701428181041-d5b4f1d66a87 / 1658101617638-b8653e27f7f2 |
 | hero-ib.webp / ib-intro.webp | Hero triptico aereo (saibro, grama, quadra dura) e intro (quadra de grama) investment-banking.html | 1658530190197-29f63baaa460 + 1639161775388-db5b5d5cc9eb + 1692288720754-743fbd1f2155 / 1717014178120-670190ab0497 |
 | band-tenis.webp / ib-cta.webp | investment-banking.html — faixa (quadra dura) / CTA (saibro, vista aerea) | 1516742720271-6ae39cbc5bd1 / 1526307616774-60d0098f7642 |
+| hero-wealth.webp / wealth-intro.webp | Hero e intro wealth.html (polo) | 1750832614453-60abe67bae65 / 1753184785629-a0d98f23ae8a |
+| band-wealth.webp / wealth-cta.webp | wealth.html — faixa 4 etapas / CTA (polo) | 1753184785416-8913169bb326 / 1636682153300-ce3882953a7c |
+| card-wealth.webp | Onde Atuamos · Wealth (polo) — copia de card-private.webp | 1605999353377-37c775c79889 |
 | time-hero.webp | time.html — hero | 1571055177609-9c20e649f47e |
 | contato-hero.webp | contato.html — hero — ver seção Wikimedia Commons abaixo | — |
 
