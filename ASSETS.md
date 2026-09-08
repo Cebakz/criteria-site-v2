@@ -11,7 +11,7 @@ Arquivos recortados/otimizados por `img/` (webp, q76) e `video/` (h264 1080p, se
 | video/hero-vela.mp4 (12 s) + img/hero-vela-poster.webp | Hero | https://www.pexels.com/video/852286/ |
 | video/numeros-torres.mp4 (10 s) + img/numeros-torres-poster.webp | Faixa de números | https://www.pexels.com/video/5941931/ |
 
-Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata**, **Offshore = neve/Alpes**, **Investimentos = golfe**, **Investment Banking = tênis**, **Wealth = polo**. A home mistura todos os esportes.
+Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = Fórmula 1**, **Offshore = neve/Alpes**, **Investimentos = golfe**, **Investment Banking = tênis**, **Wealth = polo**. A home mistura todos os esportes.
 
 ## Fotos (Unsplash) — `https://unsplash.com/photos/<id>`
 
@@ -26,7 +26,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | card-cambio.webp | Onde Atuamos · Câmbio (veleiro) | 1717054373388-b405bfd27707 |
 | card-capital.webp | Onde Atuamos · Capital (remo) | 1697242877038-6213aa0822d9 |
 | card-asset.webp | Onde Atuamos · Asset (remo) — copia de card-capital.webp | 1697242877038-6213aa0822d9 |
-| card-agro.webp | Onde Atuamos · Agro (vinhedo aéreo) | 1596695346787-be03f89b1cdd |
+| card-agro.webp | Onde Atuamos · Agro (lavoura de soja vista de cima) | 1675896655875-c2bab196d4dd |
 | servicos-vela.webp | Nossos Serviços (veleiro) | 1540946485063-a40da27545f8 |
 | why-alpes.webp | Por que a Criteria (fundo) | 1489664729864-ee8499a4ddd5 |
 | perfil-advisory.webp | Perfis · Advisory (golfe) | 1709525617656-5498eefc7d03 |
@@ -69,3 +69,19 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 ## Wikimedia Commons (CC BY-SA 3.0 — crédito obrigatório, exibido na página)
 
 `presenca-sp.webp` e `contato-hero.webp`: "CIDADE JARDIM CORPORATE CENTER - Av. Magalhães de Castro - vista da Estação Berrini da CPTM", foto de CORRETOR-CARVALHO (Panoramio, 2012), CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:CIDADE_JARDIM_CORPORATE_CENTER_-_Av._Magalh%C3%A3es_de_Castro_-_vista_da_Esta%C3%A7%C3%A3o_Berrini_da_CPTM_-_panoramio.jpg — recorte e leve ajuste de cor (saturação 0,82, contraste 1,06). Ao substituir por foto própria, remover o crédito `.credit` nas duas páginas.
+
+### Câmbio — Fórmula 1 (substituiu o tema de vela em set/2026)
+
+| arquivo | uso | Unsplash id |
+|---|---|---|
+| hero-cambio.webp | Hero cambio.html — carro em movimento | 1699138346782-8a8b211c3da2 |
+| card-cambio.webp | Onde Atuamos · Câmbio — carro na zebra | 1781869290653-2cdda6bb097b |
+| band-f1.webp | cambio.html — faixa (curva e zebra) | 1623255405531-f605a7a39e4c |
+| cam-cta.webp | cambio.html — CTA (circuito ao entardecer) | 1777362039145-efdcd02eb988 |
+| cam-pf.webp / cam-pj.webp | pessoa fisica (capacete) / pessoa juridica (box) | 1649027421785-6827863f0891 / 1693423829844-7aa4d702515e |
+| cam-remessas.webp | remessas (rastros de luz) | 1516319915504-015b432d407c |
+| cam-papel.webp | papel-moeda (circuito visto de cima) | 1594818379709-c56870d59424 |
+| cam-analise.webp | analise (circuito aereo) | 1628996797066-0991309a9e50 |
+| cam-estruturacao.webp | estruturacao (reta dos boxes) | 1686043685697-cb1659217418 |
+
+`band-regata.webp` continua em uso em time.html.
