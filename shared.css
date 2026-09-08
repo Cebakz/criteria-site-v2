@@ -737,7 +737,7 @@ section { position: relative; }
 #services .svc[data-service="offshore"]      { --g: .4; --s: .55; --b: .48; --c: 1.02; --hg: .18; --hs: .62; --hb: .58; --hc: 1.02; --pos: 50% 50%; } /* Alpes: brancos e ciano */
 #services .svc[data-service="cambio"]        { --g: .34; --s: .60; --b: .58; --c: 1.0; --hg: .12; --hs: .74; --hb: .72; --pos: 50% 50%; }  /* F1: circuito visto de cima */
 #services .svc[data-service="asset"]         { --g: .30; --s: .70; --b: .78; --c: 1.0; --hg: .10; --hs: .86; --hb: .92; --pos: 50% 50%; }  /* remo: agua escura, ja na paleta */
-#services .svc[data-service="agro"]          { --g: .46; --s: .50; --b: .52; --c: .98; --hg: .18; --hs: .66; --hb: .70; --pos: 50% 45%; }  /* vinhedo: verde contido */               /* vela: referência da paleta */
+#services .svc[data-service="agro"]          { --g: .40; --s: .58; --b: .64; --c: .98; --hg: .14; --hs: .74; --hb: .78; --pos: 50% 50%; }  /* lavoura: colheita vista de cima */
 @media (max-width: 768px) {
   #services .svc img { filter: grayscale(var(--g)) saturate(var(--s)) brightness(var(--b)) contrast(var(--c)); }
   #services .svc[data-service="investimentos"] { --pos: 50% 40%; }

@@ -26,7 +26,7 @@ Tema visual por ecossistema: **Seguros = escalada em dupla**, **Câmbio = Fórmu
 | card-cambio.webp | Onde Atuamos · Câmbio (veleiro) | 1717054373388-b405bfd27707 |
 | card-capital.webp | Onde Atuamos · Capital (remo) | 1697242877038-6213aa0822d9 |
 | card-asset.webp | Onde Atuamos · Asset (remo) — copia de card-capital.webp | 1697242877038-6213aa0822d9 |
-| card-agro.webp | Onde Atuamos · Agro (lavoura de soja vista de cima) | 1675896655875-c2bab196d4dd |
+| card-agro.webp | Onde Atuamos · Agro (colheita vista de cima) | 1633885896857-9d12902ec33a |
 | servicos-vela.webp | Nossos Serviços (veleiro) | 1540946485063-a40da27545f8 |
 | why-alpes.webp | Por que a Criteria (fundo) | 1489664729864-ee8499a4ddd5 |
 | perfil-advisory.webp | Perfis · Advisory (golfe) | 1709525617656-5498eefc7d03 |
@@ -95,10 +95,10 @@ Rocha seca, para nao se confundir com a neve de Offshore.
 | arquivo | uso | Unsplash id |
 |---|---|---|
 | hero-seguros.webp | Hero seguros.html — dupla na parede, cordas visiveis | 1625456824746-83a9a2638a8d |
-| card-seguros.webp | Onde Atuamos · Seguros — conferencia de equipamento | 1596057938795-f469b90d00a4 |
+| card-seguros.webp | Onde Atuamos · Seguros — dupla na parede | 1680565591360-59bce52d441e |
 | band-rocha.webp | seguros.html — faixa (corda passando na protecao) | 1516592673884-4a382d1124c2 |
 | band-rocha-2.webp | seguros.html — faixa (instrutor amarrando a corda) | 1703203201938-e956940fc5ed |
-| seg-vida.webp | seguros.html — vida (dois escaladores na mesma corda) | 1680565591360-59bce52d441e |
+| seg-vida.webp | seguros.html — vida (conferencia do equipamento) | 1596057938795-f469b90d00a4 |
 | seg-pessoal.webp | seguros.html — pessoal (quem da seguranca, sentado) | 1681131185783-99267550ae1d |
 | seg-empresarial.webp | seguros.html — empresarial (dupla ligada pela corda) | 1660712837536-1e88bd7d1caf |
 | seg-concierge.webp | seguros.html — concierge (no na cadeirinha) | 1518837993197-f2f59dd4ba8e |
