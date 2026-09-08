@@ -53,7 +53,7 @@ Tema visual por ecossistema: **Seguros = hipismo/polo**, **Câmbio = vela/regata
 | hero-investimentos.webp | Hero investimentos.html (golfe) | 1696104470342-b1ed3afe8381 |
 | servicos-golfe.webp | investimentos.html — abordagem | 1633597468433-fdb200b73f62 |
 | band-golfe.webp / inv-quote.webp / inv-cta.webp | investimentos.html — faixa metodologia / citação / CTA | 1592937238247-cd0090e02f65 / 1701428181041-d5b4f1d66a87 / 1658101617638-b8653e27f7f2 |
-| hero-ib.webp / ib-intro.webp | Hero triptico (saibro, grama, quadra dura) e intro (tenista) investment-banking.html | 1671750668222-85132f0a717f + 1685880423505-3a9a5515efd9 + 1516742720271-6ae39cbc5bd1 / 1545151414-8a948e1ea54f |
+| hero-ib.webp / ib-intro.webp | Hero triptico aereo (saibro, grama, quadra dura) e intro (tenista) investment-banking.html | 1658530190197-29f63baaa460 + 1639161775388-db5b5d5cc9eb + 1692288720754-743fbd1f2155 / 1545151414-8a948e1ea54f |
 | band-tenis.webp / ib-cta.webp | investment-banking.html — faixa (quadra dura) / CTA | 1516742720271-6ae39cbc5bd1 / 1548920168-70d61248a912 |
 | time-hero.webp | time.html — hero | 1571055177609-9c20e649f47e |
 | contato-hero.webp | contato.html — hero — ver seção Wikimedia Commons abaixo | — |
