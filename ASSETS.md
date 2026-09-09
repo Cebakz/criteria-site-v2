@@ -109,6 +109,9 @@ Rocha seca, para nao se confundir com a neve de Offshore.
 A foto 1596057938795 (conferencia de equipamento) saiu de uso. `band-cavalgada.webp` e `band-polo.webp` tambem ficaram sem uso depois desta troca. Foram mantidos
 no repositorio caso o tema de hipismo volte.
 
+`perfil-advisory.webp`, `perfil-broker.webp` e `perfil-wealth.webp` ficaram sem uso quando a
+secao "Perfis de Atendimento" saiu da home (9/set/2026). Mantidos no repositorio.
+
 ### Licenca e credito
 
 Todas as fotos das tabelas acima vem do Unsplash, sob a **Unsplash License**: uso comercial
