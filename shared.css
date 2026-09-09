@@ -577,13 +577,16 @@ section { position: relative; }
 .vtab:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 .vpanels { position: relative; }
 .vpanel { display: none; padding: 44px 48px; background: linear-gradient(135deg, #fff 0%, var(--sand) 100%); border-left: 2px solid var(--navy); min-height: 100%; }
-.vpanel.active { display: flex; animation: vfade .5s var(--ease); }
+.vpanel.active { display: flex; flex-direction: column; align-items: stretch; animation: vfade .5s var(--ease); }
 @keyframes vfade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 .vpanel__eyebrow { font-size: 0.66rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
 .vpanel__title { font-family: var(--display); font-weight: 600; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1.15; color: var(--navy); }
 .vpanel p { font-size: 0.98rem; line-height: 1.75; color: var(--text-body); font-weight: 300; margin-top: 18px; max-width: 720px; }
 .vpanel p strong { font-weight: 600; color: var(--navy); }
 .vpanel .checks { margin-top: 22px; max-width: 720px; }
+.vpanel__fee { margin-top: auto; padding-top: 22px; border-top: 1px solid var(--line); font-size: 0.9rem; line-height: 1.6; color: var(--text-body); font-weight: 300; max-width: 720px; }
+.vpanel__fee b { display: block; margin-bottom: 6px; font-size: 0.64rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--blue); }
+.bg-sand .banner { background: #fff; }
 .vpanel__grid { display: grid; grid-template-columns: 1fr 250px; gap: 44px; align-items: stretch; flex: 1 1 auto; width: 100%; }
 .vpanel__body { min-width: 0; }
 .vpanel__media { position: relative; overflow: hidden; background: var(--ink-2); min-height: 320px; }
