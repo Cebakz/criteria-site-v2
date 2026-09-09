@@ -585,6 +585,10 @@ section { position: relative; }
 .vpanel p strong { font-weight: 600; color: var(--navy); }
 .vpanel .checks { margin-top: 22px; max-width: 720px; }
 .vpanel__fee { margin-top: auto; padding-top: 22px; border-top: 1px solid var(--line); font-size: 0.9rem; line-height: 1.6; color: var(--text-body); font-weight: 300; max-width: 720px; }
+/* evita ultima linha com uma palavra solta em titulos e texto corrido */
+.vpanel__title, .fcard__title, .svc__title, .why__title, .prof__title, .office__city { text-wrap: balance; }
+p, .lead, .fcard__text, .why__text, .svc__desc, .vpanel p, .vpanel__fee, .checks li { text-wrap: pretty; }
+
 .vpanel__fee b { display: block; margin-bottom: 6px; font-size: 0.64rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--blue); }
 .bg-sand .banner { background: #fff; }
 .vpanel__grid { display: grid; grid-template-columns: 1fr 250px; gap: 44px; align-items: stretch; flex: 1 1 auto; width: 100%; }
