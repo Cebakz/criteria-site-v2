@@ -75,7 +75,7 @@ Tema visual por ecossistema: **Seguros = escalada em dupla**, **Câmbio = Fórmu
 | arquivo | uso | Unsplash id |
 |---|---|---|
 | hero-cambio.webp | Hero cambio.html — curva vista de cima | 1681582798464-0c67012b7a13 |
-| card-cambio.webp | Onde Atuamos · Câmbio — carro na zebra | 1781869290653-2cdda6bb097b |
+| card-cambio.webp | Onde Atuamos · Câmbio — monoposto na pista, visto de cima | 1650444685428-151801b8ecfc |
 | band-f1.webp | cambio.html — faixa (curva e zebra) | 1623255405531-f605a7a39e4c |
 | cam-cta.webp | cambio.html — CTA (circuito ao entardecer) | 1777362039145-efdcd02eb988 |
 | cam-pf.webp / cam-pj.webp | pessoa fisica (capacete) / pessoa juridica (box) | 1649027421785-6827863f0891 / 1693423829844-7aa4d702515e |
