@@ -577,13 +577,29 @@ section { position: relative; }
 .vtab:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 .vpanels { position: relative; }
 .vpanel { display: none; padding: 44px 48px; background: linear-gradient(135deg, #fff 0%, var(--sand) 100%); border-left: 2px solid var(--navy); min-height: 100%; }
-.vpanel.active { display: block; animation: vfade .5s var(--ease); }
+.vpanel.active { display: flex; animation: vfade .5s var(--ease); }
 @keyframes vfade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 .vpanel__eyebrow { font-size: 0.66rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
 .vpanel__title { font-family: var(--display); font-weight: 600; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1.15; color: var(--navy); }
 .vpanel p { font-size: 0.98rem; line-height: 1.75; color: var(--text-body); font-weight: 300; margin-top: 18px; max-width: 720px; }
 .vpanel p strong { font-weight: 600; color: var(--navy); }
 .vpanel .checks { margin-top: 22px; max-width: 720px; }
+.vpanel__grid { display: grid; grid-template-columns: 1fr 250px; gap: 44px; align-items: stretch; flex: 1 1 auto; width: 100%; }
+.vpanel__body { min-width: 0; }
+.vpanel__media { position: relative; overflow: hidden; background: var(--ink-2); min-height: 320px; }
+.vpanel__media img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(.28) saturate(.82) brightness(.9) contrast(1.02); transition: filter .8s var(--ease), transform 1.4s var(--ease); }
+.vpanel:hover .vpanel__media img { filter: grayscale(.06) saturate(.94) brightness(1) contrast(1.02); transform: scale(1.03); }
+.vpanel__stats { display: flex; flex-wrap: wrap; gap: 14px 48px; margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--line); }
+.vpanel__stats b { display: block; font-family: var(--display); font-weight: 600; font-size: 1.5rem; line-height: 1; letter-spacing: -0.02em; color: var(--navy); font-variant-numeric: tabular-nums; }
+.vpanel__stats small { display: block; margin-top: 7px; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); }
+@media (max-width: 1100px) {
+  .vpanel__grid { grid-template-columns: 1fr 200px; gap: 32px; }
+}
+@media (max-width: 900px) {
+  .vpanel__grid { grid-template-columns: 1fr; gap: 28px; }
+  .vpanel__media { aspect-ratio: 16 / 9; min-height: 0; width: 100%; order: -1; }
+  .vpanel__stats { gap: 14px 32px; }
+}
 .vpanel .ops { margin-top: 26px; grid-template-columns: repeat(3, 1fr); }
 .vpanel .ops div { background: #fff; }
 .vpanel .numlist { margin-top: 26px; }
