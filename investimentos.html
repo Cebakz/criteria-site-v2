@@ -38,6 +38,7 @@
         </div>
       </li>
       <li><a href="time.html" class="nav__link">Time</a></li>
+      <li><a href="ferramentas.html" class="nav__link">Ferramentas</a></li>
       <li><a href="index.html#insights" class="nav__link">Mídia</a></li>
     </ul>
     <a href="contato.html" class="nav__cta">Fale Conosco</a>
@@ -48,6 +49,7 @@
   <a href="index.html">A Criteria</a>
   <a href="index.html#services">Atuação</a>
   <a href="time.html">Time</a>
+  <a href="ferramentas.html">Ferramentas</a>
   <a href="index.html#insights">Mídia</a>
   <a href="contato.html">Contato</a>
   <small>Ecossistema</small>
@@ -191,110 +193,6 @@
   </div>
 </section>
 
-<!-- SIMULADOR DE APOSENTADORIA -->
-<section class="section bg-sand" id="simulador">
-  <div class="wrap">
-    <div class="services__head" style="align-items:flex-end">
-      <div>
-        <div class="label reveal">Ferramenta</div>
-        <h2 class="h2 reveal">Simule a sua <em>aposentadoria</em></h2>
-      </div>
-      <p class="lead reveal" style="margin-top:0;max-width:460px;">Seis respostas e você vê quanto precisa acumular e quanto guardar por mês. O cálculo roda aqui no seu navegador e nada é enviado ou guardado.</p>
-    </div>
-    <div class="sim reveal">
-      <form class="sim__form" id="simForm" novalidate>
-        <label class="sim__field"><span>Minha idade hoje</span><input type="number" id="simIdade" min="18" max="80" value="40" inputmode="numeric"></label>
-        <label class="sim__field"><span>Idade em que pretendo me aposentar</span><input type="number" id="simApos" min="30" max="90" value="65" inputmode="numeric"></label>
-        <label class="sim__field"><span>Já tenho investido (R$)</span><input type="text" id="simSaldo" value="100.000" inputmode="numeric"></label>
-        <label class="sim__field"><span>Renda mensal desejada na aposentadoria (R$)</span><input type="text" id="simRenda" value="15.000" inputmode="numeric"></label>
-        <label class="sim__field"><span>Expectativa de vida</span><input type="number" id="simVida" min="60" max="110" value="90" inputmode="numeric"></label>
-        <label class="sim__field"><span>Juros reais ao ano (%)</span><input type="number" id="simTaxa" min="0" max="15" step="0.5" value="5" inputmode="decimal"></label>
-        <fieldset class="sim__field sim__field--wide"><legend>Quero deixar o patrimônio para herdeiros</legend>
-          <label class="sim__radio"><input type="radio" name="simSuc" value="1" checked> Sim, preservar o capital</label>
-          <label class="sim__radio"><input type="radio" name="simSuc" value="0"> Não, posso consumir o capital</label>
-        </fieldset>
-      </form>
-      <div class="sim__out">
-        <div class="sim__card">
-          <div class="sim__eyebrow">Preciso acumular</div>
-          <div class="sim__big" id="simCapital">R$ 0</div>
-          <div class="sim__sub">Aportando <b id="simAporte">R$ 0</b> por mês, durante <b id="simAnos">0 anos</b></div>
-          <svg class="sim__chart" id="simChart" viewBox="0 0 520 200" role="img" aria-label="Evolução do saldo até a expectativa de vida"></svg>
-          <div class="sim__legend"><span><i></i>Saldo</span><span><i class="sim__legend--dash"></i>Aposentadoria</span></div>
-        </div>
-        <p class="sim__text" id="simTexto"></p>
-        <p class="sim__note">Simulação didática com juros reais constantes, sem impostos e sem inflação. Não é recomendação de investimento. Para o plano de verdade, com seus produtos e sua tributação, fale com um assessor.</p>
-        <a href="#contact" class="btn btn--blue">Refinar com um assessor <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg></a>
-      </div>
-    </div>
-  </div>
-</section>
-<script>
-(function () {
-  var $ = function (id) { return document.getElementById(id); };
-  var fmt = function (v) { return 'R$ ' + Math.round(v).toLocaleString('pt-BR'); };
-  var num = function (el) { return parseFloat(String(el.value).replace(/\./g, '').replace(',', '.')) || 0; };
-  var mask = function (el) {
-    var d = String(el.value).replace(/\D/g, '');
-    el.value = d ? parseInt(d, 10).toLocaleString('pt-BR') : '';
-  };
-  function calc() {
-    var idade = +$('simIdade').value || 0, apos = +$('simApos').value || 0, vida = +$('simVida').value || 0;
-    var saldo = num($('simSaldo')), renda = num($('simRenda'));
-    var taxa = Math.max(0, +$('simTaxa').value || 0) / 100;
-    var suc = document.querySelector('input[name="simSuc"]:checked').value === '1';
-    if (apos <= idade) apos = idade + 1;
-    if (vida <= apos) vida = apos + 1;
-    var im = Math.pow(1 + taxa, 1 / 12) - 1;
-    var nA = (apos - idade) * 12, nR = (vida - apos) * 12;
-    var capital;
-    if (im <= 0) capital = renda * nR;
-    else capital = suc ? renda / im : renda * (1 - Math.pow(1 + im, -nR)) / im;
-    var fvSaldo = im > 0 ? saldo * Math.pow(1 + im, nA) : saldo;
-    var falta = capital - fvSaldo;
-    var aporte = im > 0 ? falta * im / (Math.pow(1 + im, nA) - 1) : falta / nA;
-    if (aporte < 0) aporte = 0;
-    $('simCapital').textContent = fmt(capital);
-    $('simAporte').textContent = fmt(aporte);
-    $('simAnos').textContent = (apos - idade) + ' anos';
-    var fim = suc ? 'Como você quer preservar o capital, ao final do plano os ' + fmt(capital) + ' continuam na família.'
-                  : 'Como o capital pode ser consumido, ele chega perto de zero aos ' + vida + ' anos.';
-    $('simTexto').textContent = 'Para se aposentar aos ' + apos + ' anos com ' + fmt(renda) + ' por mês, você precisa de ' + fmt(capital) +
-      (aporte > 0 ? '. Partindo de ' + fmt(saldo) + ' e guardando ' + fmt(aporte) + ' por mês, chega lá aos ' + apos + '. ' : '. O que você já tem, rendendo, cobre a meta sem aportes novos. ') + fim;
-    // grafico
-    var pts = [], s = saldo, maxV = 0, ano;
-    for (ano = idade; ano <= vida; ano++) {
-      pts.push([ano, s]); if (s > maxV) maxV = s;
-      if (ano < apos) { for (var m = 0; m < 12; m++) s = s * (1 + im) + aporte; }
-      else { for (var k = 0; k < 12; k++) s = Math.max(0, s * (1 + im) - renda); }
-    }
-    if (!suc) pts[pts.length - 1][1] = Math.max(0, pts[pts.length - 1][1]);
-    maxV = Math.max(maxV, capital) * 1.08 || 1;
-    var W = 520, H = 200, L = 46, R = 12, T = 12, Bm = 28;
-    var x = function (a) { return L + (a - idade) / (vida - idade) * (W - L - R); };
-    var y = function (v) { return T + (1 - v / maxV) * (H - T - Bm); };
-    var d = pts.map(function (p, i) { return (i ? 'L' : 'M') + x(p[0]).toFixed(1) + ' ' + y(p[1]).toFixed(1); }).join(' ');
-    var area = d + ' L' + x(vida).toFixed(1) + ' ' + y(0).toFixed(1) + ' L' + x(idade).toFixed(1) + ' ' + y(0).toFixed(1) + ' Z';
-    var ticks = '', i;
-    for (i = 0; i <= 4; i++) {
-      var v = maxV / 1.08 * i / 4, yy = y(v);
-      ticks += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + yy.toFixed(1) + '" y2="' + yy.toFixed(1) + '" class="sim__grid"/>' +
-               '<text x="' + (L - 6) + '" y="' + (yy + 3).toFixed(1) + '" class="sim__tick" text-anchor="end">' + (v >= 1e6 ? (v / 1e6).toFixed(1).replace('.0', '') + 'M' : Math.round(v / 1e3) + 'k') + '</text>';
-    }
-    var xl = [idade, apos, vida].map(function (a) { return '<text x="' + x(a).toFixed(1) + '" y="' + (H - 8) + '" class="sim__tick" text-anchor="middle">' + a + '</text>'; }).join('');
-    $('simChart').innerHTML = ticks +
-      '<path d="' + area + '" class="sim__area"/>' +
-      '<path d="' + d + '" class="sim__line"/>' +
-      '<line x1="' + x(apos).toFixed(1) + '" x2="' + x(apos).toFixed(1) + '" y1="' + T + '" y2="' + y(0).toFixed(1) + '" class="sim__mark"/>' + xl;
-  }
-  ['simSaldo', 'simRenda'].forEach(function (id) { $(id).addEventListener('input', function () { mask(this); calc(); }); });
-  ['simIdade', 'simApos', 'simVida', 'simTaxa'].forEach(function (id) { $(id).addEventListener('input', calc); });
-  Array.prototype.forEach.call(document.querySelectorAll('input[name="simSuc"]'), function (r) { r.addEventListener('change', calc); });
-  $('simForm').addEventListener('submit', function (e) { e.preventDefault(); calc(); });
-  calc();
-})();
-</script>
-
 <!-- CTA -->
 <section class="cta" id="contact">
   <div class="media media--parallax"><img src="img/inv-cta.webp" alt="" loading="lazy"></div>
@@ -322,7 +220,7 @@
           <a href="https://www.facebook.com/criteriafinancialgroup" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8.5V6.8c0-.9.4-1.3 1.3-1.3H17V2h-2.8C11.3 2 10 3.7 10 6.5v2H7.5V12H10v10h4V12h2.7l.5-3.5z"/></svg></a>
         </div>
       </div>
-      <div class="footer__col"><div class="footer__h">Institucional</div><ul><li><a href="#top">A Criteria</a></li><li><a href="time.html">Time</a></li><li><a href="contato.html#form">Carreiras</a></li><li><a href="index.html#insights">Mídia</a></li></ul></div>
+      <div class="footer__col"><div class="footer__h">Institucional</div><ul><li><a href="#top">A Criteria</a></li><li><a href="time.html">Time</a></li><li><a href="ferramentas.html">Ferramentas</a></li><li><a href="contato.html#form">Carreiras</a></li><li><a href="index.html#insights">Mídia</a></li></ul></div>
       <div class="footer__col"><div class="footer__h">Grupo</div><ul><li><a href="investimentos.html">Investimentos</a></li><li><a href="wealth.html">Wealth Planning</a></li><li><a href="seguros.html">Seguros</a></li><li><a href="investment-banking.html">Investment Banking</a></li><li><a href="offshore.html">Offshore</a></li><li><a href="cambio.html">Câmbio</a></li><li><a href="https://cfgasset.com.br/" target="_blank" rel="noopener">Asset ↗</a></li><li><a href="https://www.gtrd.com.br/sobre" target="_blank" rel="noopener">Agro · Getreide ↗</a></li></ul></div>
       <div class="footer__col"><div class="footer__h">Legal</div><ul><li><a href="https://criteriafg.com.br/politica_privacidade/" target="_blank" rel="noopener">Política de Privacidade</a></li><li><a href="https://www.gov.br/cvm/" target="_blank" rel="noopener">CVM</a></li><li><a href="https://www.ancord.org.br/" target="_blank" rel="noopener">Ancord</a></li></ul></div>
       <div class="footer__col"><div class="footer__h"><a href="contato.html" style="color:inherit;text-decoration:none">Contato</a></div><div class="footer__contact"><b>(11) 3124-9696</b>Av. Magalhães de Castro, 4800<br>Torre 3 — Jardim Panorama<br>São Paulo — SP, 05676-120</div></div>
