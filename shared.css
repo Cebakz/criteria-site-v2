@@ -804,3 +804,35 @@ p, .lead, .fcard__text, .why__text, .svc__desc, .vpanel p, .vpanel__fee, .checks
 .vpanel__cta { display: inline-flex; align-items: center; gap: 8px; margin-top: 26px; }
 .vpanel__tags { margin-top: 26px; }
 .vpanel__cta { margin-top: 22px; }
+
+/* simulador de aposentadoria (investimentos.html) */
+.sim { display: grid; grid-template-columns: 1fr 1.15fr; gap: 40px; margin-top: 56px; align-items: start; }
+.sim__form { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 20px; background: #fff; border: 1px solid var(--line); padding: 32px; }
+.sim__field { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; border: 0; min-width: 0; }
+.sim__field > span, .sim__field > legend { font-size: 0.66rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted); padding: 0; }
+.sim__field input[type="number"], .sim__field input[type="text"] { width: 100%; font-family: var(--sans); font-size: 1.05rem; color: var(--text-dark); background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 0; outline: none; transition: border-color .3s; }
+.sim__field input:focus { border-bottom-color: var(--blue); }
+.sim__field--wide { grid-column: 1 / -1; gap: 12px; padding-top: 6px; }
+.sim__radio { display: inline-flex; align-items: center; gap: 10px; font-size: 0.92rem; color: var(--text-dark); margin-right: 22px; cursor: pointer; }
+.sim__radio input { accent-color: var(--blue); width: 16px; height: 16px; margin: 0; }
+.sim__out { display: flex; flex-direction: column; gap: 22px; }
+.sim__card { background: var(--navy); color: #fff; padding: 34px 36px 26px; }
+.sim__eyebrow { font-size: 0.66rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--blue-light); }
+.sim__big { font-family: var(--display); font-weight: 600; font-size: clamp(2rem, 3.4vw, 2.9rem); line-height: 1.05; letter-spacing: -0.03em; margin-top: 10px; font-variant-numeric: tabular-nums; }
+.sim__sub { margin-top: 10px; font-size: 0.92rem; color: rgba(255,255,255,0.7); font-weight: 300; }
+.sim__sub b { color: #fff; font-weight: 600; }
+.sim__chart { display: block; width: 100%; height: auto; margin-top: 24px; }
+.sim__grid { stroke: rgba(255,255,255,0.10); stroke-width: 1; }
+.sim__tick { fill: rgba(255,255,255,0.55); font-size: 10px; font-family: var(--sans); }
+.sim__area { fill: rgba(26,140,196,0.18); }
+.sim__line { fill: none; stroke: var(--blue-light); stroke-width: 2; }
+.sim__mark { stroke: rgba(255,255,255,0.55); stroke-width: 1; stroke-dasharray: 3 4; }
+.sim__legend { display: flex; gap: 22px; margin-top: 12px; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.6); }
+.sim__legend span { display: inline-flex; align-items: center; gap: 8px; }
+.sim__legend i { display: inline-block; width: 22px; height: 2px; background: var(--blue-light); }
+.sim__legend i.sim__legend--dash { background: none; border-top: 1px dashed rgba(255,255,255,0.7); height: 0; }
+.sim__text { font-size: 0.98rem; line-height: 1.7; color: var(--text-body); font-weight: 300; margin: 0; }
+.sim__note { font-size: 0.78rem; line-height: 1.55; color: var(--text-muted); margin: 0; }
+.sim__out .btn { align-self: flex-start; }
+@media (max-width: 1000px) { .sim { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .sim__form { grid-template-columns: 1fr; padding: 24px 20px; } .sim__card { padding: 26px 22px 20px; } .sim__radio { margin-right: 0; } .sim__field--wide { gap: 8px; } .sim__tick { font-size: 15px; } }
