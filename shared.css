@@ -876,11 +876,12 @@ p, .lead, .fcard__text, .why__text, .svc__desc, .vpanel p, .vpanel__fee, .checks
 
 /* pagina de seguros (spec 09/2026) */
 .num__v--txt { font-size: clamp(1.6rem, 2.6vw, 2.4rem); letter-spacing: -0.02em; }
-.subnav { position: sticky; top: 72px; z-index: 40; background: rgba(255,255,255,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
-.subnav__in { display: flex; gap: 6px 34px; overflow-x: auto; padding-top: 0; padding-bottom: 0; scrollbar-width: none; }
-.subnav__in::-webkit-scrollbar { display: none; }
-.subnav a { flex: none; padding: 16px 0; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted); text-decoration: none; border-bottom: 2px solid transparent; transition: color .25s, border-color .25s; }
-.subnav a:hover { color: var(--navy); border-bottom-color: var(--blue); }
+.subnav { background: var(--ink); border-top: 1px solid rgba(255,255,255,0.08); }
+.subnav__in { display: flex; align-items: center; justify-content: center; gap: 10px 40px; flex-wrap: wrap; padding-top: 22px; padding-bottom: 22px; }
+.subnav__lbl { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-right: 8px; }
+.subnav a { display: inline-flex; align-items: center; gap: 10px; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255,255,255,0.75); text-decoration: none; transition: color .25s; }
+.subnav a::after { content: ''; width: 5px; height: 5px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: rotate(45deg); margin-top: -3px; opacity: .6; }
+.subnav a:hover { color: #fff; }
 .sg__note { margin-top: 22px; font-size: 0.88rem; line-height: 1.65; color: var(--text-body); font-weight: 300; max-width: 620px; }
 .sg__cta { margin-top: 28px; }
 .sg__stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 64px; }
@@ -912,5 +913,5 @@ p, .lead, .fcard__text, .why__text, .svc__desc, .vpanel p, .vpanel__fee, .checks
 #empresas .fcard__text { color: rgba(255,255,255,0.72); }
 #empresas .fcard__icon { stroke: var(--blue-light); }
 @media (max-width: 1000px) { .sg__stats { grid-template-columns: repeat(2, 1fr); } .sg__plat { grid-template-columns: 1fr; padding: 28px 24px; } }
-@media (max-width: 768px) { .subnav { top: 64px; } .sg__list { grid-template-columns: 1fr; } .sg__list div { grid-template-columns: 1fr; gap: 4px; } }
+@media (max-width: 768px) { .subnav__in { gap: 12px 24px; } .subnav__lbl { width: 100%; text-align: center; margin: 0; } .sg__list { grid-template-columns: 1fr; } .sg__list div { grid-template-columns: 1fr; gap: 4px; } }
 @media (max-width: 560px) { .sg__stats { grid-template-columns: 1fr; } }
