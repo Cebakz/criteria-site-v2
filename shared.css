@@ -915,3 +915,11 @@ p, .lead, .fcard__text, .why__text, .svc__desc, .vpanel p, .vpanel__fee, .checks
 @media (max-width: 1000px) { .sg__stats { grid-template-columns: repeat(2, 1fr); } .sg__plat { grid-template-columns: 1fr; padding: 28px 24px; } }
 @media (max-width: 768px) { .subnav__in { gap: 12px 24px; } .subnav__lbl { width: 100%; text-align: center; margin: 0; } .sg__list { grid-template-columns: 1fr; } .sg__list div { grid-template-columns: 1fr; gap: 4px; } }
 @media (max-width: 560px) { .sg__stats { grid-template-columns: 1fr; } }
+.sg__duo { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: start; }
+.sg__conc { background: var(--navy); color: #fff; padding: 40px 40px 34px; }
+.sg__conc-eyebrow { font-size: 0.66rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--blue-light); }
+.sg__conc-title { font-family: var(--display); font-weight: 600; font-size: 1.5rem; letter-spacing: -0.02em; line-height: 1.2; margin: 12px 0 14px; }
+.sg__conc p { font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.72); font-weight: 300; }
+.sg__conc .checks { margin-top: 20px; }
+@media (max-width: 1000px) { .sg__duo { grid-template-columns: 1fr; gap: 36px; } }
+@media (max-width: 560px) { .sg__conc { padding: 28px 22px 24px; } }
